@@ -14,11 +14,12 @@ title: "一般教養としての電装"
 ---
 
 <br>
+<br>
+<br>
+
+---
 
 <h1>使っている道具</h1>
-
-
-
 
 <table align="center">
  <tr>
@@ -34,11 +35,13 @@ title: "一般教養としての電装"
  </tr>
 </table>
 
-<br>
-
 ---
 
 <br>
+<br>
+<br>
+
+---
 
 <h3 align="center">⚠️持ち方に注意⚠️</h3>
 <table align="center">
@@ -52,10 +55,32 @@ title: "一般教養としての電装"
   </tr>
 </table>
 
+---
+
+<br>
+<br>
 <br>
 
 ---
 
+<h3 align="center">🌡️熱くなる場所🌡️</h3>
+<table>
+ <tr>
+  <td>
+   <ul>
+    <li>はんだごての<em><strong>金属部分全て</strong></em></li>
+    <li>はんだごてを置く<em><strong>こて台</strong></em> (右図)</li>
+   </ul>
+  </td>
+  <td><img width="500px" src="https://www.goot.jp/storage/images/products/1764554219de75y0caw7jxhVxUZexpIl_l.jpeg" /></td>
+ </tr>
+</table>
+<h2 align="center">ホットプレート</h2> 
+
+---
+
+<br>
+<br>
 <br>
 
-<h2 align="center">ホットプレート</h2> 
+---
