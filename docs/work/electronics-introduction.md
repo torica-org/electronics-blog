@@ -84,6 +84,7 @@ title: "一般教養としての電装"
 
 ---
 
+<br>
 <table align="center">
  <tr>
   <th>
@@ -99,13 +100,33 @@ title: "一般教養としての電装"
   </td>
  </tr>
 </table>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+
+---
+
+<table align="center">
+ <tr>
+   <td>
+     <h2 align="center">ホットプレート</h2>
+     <p align="center">⚠️やけどに注意🌡️</p>
+     <ul>
+       <li>300℃弱の高温🌡️</li>
+       <li>なかなか冷めません⚠️</li>
+       <li>食べ物には使用禁止❌️</li>
+     </ul>
+   </td>
+   <td><img width="500px" src="https://www.zeusbtc.com/UploadFile/Product/2024092418071866.jpg" /></td>
+ </tr>
+</table>
 
 ---
 
 <br>
 <br>
 <br>
-
----
-
-<h2 align="center">ホットプレート</h2> 
