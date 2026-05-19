@@ -19,10 +19,20 @@ title: "一般教養としての電装"
 
 <h2 align="center">はんだごて</h2>
 <p align="center">⚠️やけどに注意🌡️</p>
+
 <table align="center">
  <tr>
+  <th></th>
+  <th></th>
+ </tr>
+ <tr>
    <td><img width="500px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" / ></td>
-   <td>300℃を超える高温🌡️<br>なかなか冷めません⚠️</td>
+   <td>
+     <ul>
+       <li>300℃を超える高温🌡️</li>
+       <li>使用後もなかなか冷めません⚠️</li>
+     </ul>
+   </td>
 </table>
 
 <br>
