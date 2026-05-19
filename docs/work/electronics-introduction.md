@@ -75,12 +75,27 @@ title: "一般教養としての電装"
   <td><img width="500px" src="https://www.goot.jp/storage/images/products/1764554219de75y0caw7jxhVxUZexpIl_l.jpeg" /></td>
  </tr>
 </table>
+
+---
+
+<br>
+<br>
+<br>
+
+---
+
+<h3 align="center">⚠️注意事項⚠️</h3>
+<ul align="center">
+  <li>はんだごてを使っている人の周りでむやみに動き回らない</li>
+  <li>はんだごてを使うときは「高温であること」を周知する</li>
+</ul>
+
+---
+
+<br>
+<br>
+<br>
+
+---
+
 <h2 align="center">ホットプレート</h2> 
-
----
-
-<br>
-<br>
-<br>
-
----
