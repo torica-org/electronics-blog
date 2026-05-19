@@ -36,9 +36,7 @@ title: "一般教養としての電装"
 </table>
 
 <br>
-
----
-
+<br>
 <br>
 
 <h3 align="center">⚠️持ち方に注意⚠️</h3>
@@ -52,3 +50,9 @@ title: "一般教養としての電装"
     <td><img width="500px" src="https://img.huffingtonpost.com/asset/5c6353222300007601220c44.jpeg?ops=scalefit_1440&format=webp" /></td>
   </tr>
 </table>
+
+<br>
+<br>
+<br>
+
+<h2 align="center">ホットプレート</h2> 
