@@ -26,7 +26,7 @@ title: "一般教養としての電装"
   <th></th>
  </tr>
  <tr>
-   <td><img width="500px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" / ></td>
+   <td><img width="500px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
    <td>
      <ul>
        <li>300℃を超える高温🌡️</li>
