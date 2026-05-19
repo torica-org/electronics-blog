@@ -6,7 +6,7 @@
 
 東京理科大学 葛飾キャンパスを拠点とする鳥人間サークルです．鳥人間コンテスト 滑空機部門に出場し，私たちで作った飛行機を琵琶湖の空に飛ばすために活動しています．
 
-<span style="font-size:large;"> 詳しくは，[公式ブログ](https://torica-tus.com)をご確認ください！</span>
+<span style="font-size:large;"> 詳しくは，[鳥科公式ブログ](https://torica-tus.com)をご確認ください！</span>
 
 # 電装班とは？
 
@@ -32,7 +32,7 @@
 - [RP2040小型化基板の製作とJLCPCBの魅力に迫る](commercials/TORICAberry_Pi_Bico)
 
 ## 作業
-- [一般教養としての電装](torica/electronics-introduction) 
+- [一般教養としての電装](work/electronics-introduction) 
 
 ## 電装班員の寝言
 - 近日投稿予定 []()
