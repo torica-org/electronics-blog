@@ -85,21 +85,12 @@ title: "一般教養としての電装"
 ---
 
 <br>
-<table align="center">
- <tr>
-  <th>
-   <h3 align="center">⚠️注意事項⚠️</h3>
-  </th>
- </tr>
- <tr>
-  <td align="center">
-   <ul>
-    <li>はんだごてを使っている人の周りでむやみに動き回らない</li>
-    <li>はんだごてを使うときは「高温であること」を周知する</li>
-   </ul>
-  </td>
- </tr>
-</table>
+<h3 align="center">⚠️注意事項⚠️</h3>
+<p align="center">はんだごての使用に関して，以下のことを<em><strong>忘れないでください！</strong></em></p>
+<ul align="center">
+  <li>はんだごてを使っている人の周りをむやみに動き回らない</li>
+  <li>はんだごてを使うときは「高温であること」を周知する</li>
+</ul>
 <br>
 
 ---
