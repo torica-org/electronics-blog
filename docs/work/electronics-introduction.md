@@ -17,18 +17,20 @@ title: "一般教養としての電装"
 
 <h1>使っている道具</h1>
 
-<h2 align="center">はんだごて</h2>
-<p align="center">⚠️やけどに注意🌡️</p>
+
+
 
 <table align="center">
  <tr>
-   <td><img width="500px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
    <td>
+     <h2 align="center">はんだごて</h2>
+     <p align="center">⚠️やけどに注意🌡️</p>
      <ul>
        <li>300℃を超える高温🌡️</li>
-       <li>使用後もなかなか冷めません⚠️</li>
+       <li>なかなか冷めません⚠️</li>
      </ul>
    </td>
+   <td><img width="500px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
  </tr>
 </table>
 
