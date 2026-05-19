@@ -22,10 +22,6 @@ title: "一般教養としての電装"
 
 <table align="center">
  <tr>
-  <th></th>
-  <th></th>
- </tr>
- <tr>
    <td><img width="500px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
    <td>
      <ul>
@@ -33,17 +29,20 @@ title: "一般教養としての電装"
        <li>使用後もなかなか冷めません⚠️</li>
      </ul>
    </td>
+ </tr>
 </table>
 
 <br>
-<br>
+
+---
+
 <br>
 
 <h3 align="center">⚠️持ち方に注意⚠️</h3>
 <table align="center">
   <tr>
-    <th align="center">✅️</th>
-    <th align="center">❌️</th>
+    <th align="center">✅️正しい</th>
+    <th align="center">❌️間違い</th>
   </tr>
   <tr>
     <td><img width="500px" src="https://item-shopping.c.yimg.jp/i/n/kadonodouguya_00042625_1" /></td>
@@ -52,7 +51,9 @@ title: "一般教養としての電装"
 </table>
 
 <br>
-<br>
+
+---
+
 <br>
 
 <h2 align="center">ホットプレート</h2> 
