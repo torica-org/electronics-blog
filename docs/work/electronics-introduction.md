@@ -22,13 +22,7 @@ title: "一般教養としての電装"
 <table align="center">
  <tr>
    <td><img width="500px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" / ></td>
-   <td>
-     <ul>
-       <li>300℃を超える高温🌡️</li>
-       <li>使用後もなかなか冷めません⚠️</li>
-     </ul>
-   </td>
- </tr>
+   <td>300℃を超える高温🌡️<br>なかなか冷めません⚠️</td>
 </table>
 
 <br>
@@ -40,8 +34,8 @@ title: "一般教養としての電装"
 <h3 align="center">⚠️持ち方に注意⚠️</h3>
 <table align="center">
   <tr>
-    <th>✅️</th>
-    <th>❌️</th>
+    <th align="center">✅️</th>
+    <th align="center">❌️</th>
   </tr>
   <tr>
     <td><img width="500px" src="https://item-shopping.c.yimg.jp/i/n/kadonodouguya_00042625_1" /></td>
