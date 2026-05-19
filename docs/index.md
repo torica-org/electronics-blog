@@ -28,8 +28,11 @@
 
 # 記事
 
-#### PR
+## PR
 - [RP2040小型化基板の製作とJLCPCBの魅力に迫る](commercials/TORICAberry_Pi_Bico)
 
-#### 電装班員の寝言
+## 作業
+- [一般教養としての電装](torica/electronics-introduction) 
+
+## 電装班員の寝言
 - 近日投稿予定 []()
