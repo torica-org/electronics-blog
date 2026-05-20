@@ -19,8 +19,7 @@ title: "一般教養としての電装"
 
 ---
 
-<h1>使っている道具</h1>
-
+<h1>使っている道具 - 1</h1>
 <table align="center">
  <tr>
    <td>
@@ -86,7 +85,7 @@ title: "一般教養としての電装"
 
 <br>
 <h3 align="center">⚠️注意事項⚠️</h3>
-<p align="center">はんだごての使用に関して，以下のことを<em><strong>忘れないでください！</strong></em></p>
+<p align="center">はんだごての使用に関して，<em><strong>以下のことを忘れないでください！</strong></em></p>
 <ul align="center">
   <li>はんだごてを使っている人の周りをむやみに動き回らない</li>
   <li>はんだごてを使うときは「高温であること」を周知する</li>
@@ -101,6 +100,8 @@ title: "一般教養としての電装"
 
 ---
 
+
+<h1>使っている道具 - 2</h1>
 <table align="center">
  <tr>
    <td>
@@ -121,3 +122,29 @@ title: "一般教養としての電装"
 <br>
 <br>
 <br>
+
+---
+
+<br>
+<h3 align="center">❓️リフローとは❓️</h3>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<h3 align="center">⚠️注意事項⚠️</h3>
+<p align="center">ホットプレートの使用に関して，<em><strong>以下のことを忘れないでください！</strong></em></p>
+<ul align="center">
+  <li>リフロー作業中に振動を与えない（非常に小さな部品を扱うため）</li>
+  <li>ホットプレートを使うときは「高温であること」を周知する</li>
+</ul>
+<br>
+
+---
+
