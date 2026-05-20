@@ -350,8 +350,8 @@ title: "一般教養としての電装"
 <p align="center"><em><strong>膨張したバッテリーを使用してはいけません！🚫<br>すぐに教えてください！🔔</strong></em></p>
 <table align="center">
   <tr>
-    <th align="center">刺突🔪</th>
-    <th align="center">充電中の炎上🔥</th>
+    <th>刺突🔪</th>
+    <th>充電中の炎上🔥</th>
   </tr>
   <tr>
     <td><img width="300px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.com%2FzXUFkPaORpMAAAAM%2Fminayoecn-battery.gif&f=1&nofb=1&ipt=728602f1ce3f91075cdd4152ea22c85ece42f29675578f5c17071184d3f98988" /></td>
@@ -409,4 +409,4 @@ title: "一般教養としての電装"
 
 ---
 
-[back](./)
+[Home](/)
