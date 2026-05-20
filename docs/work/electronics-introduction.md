@@ -413,4 +413,4 @@ title: "一般教養としての電装"
 
 ---
 
-[back](../../)
+[Home](https://torica-org.github.io/electronics-blog/)
