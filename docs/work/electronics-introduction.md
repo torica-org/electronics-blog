@@ -347,7 +347,11 @@ title: "一般教養としての電装"
 ---
 
 <h3 align="center">⚠️衝撃に注意⚠️</h3>
-<p align="center"><em><strong>膨張したバッテリーを使用してはいけません！🚫<br>すぐに教えてください！🔔</strong></em></p>
+<p align="center"><em><strong>
+ 膨張したバッテリーを使用してはいけません！🚫
+ <br>
+ 発見したらすぐに教えてください！🔔
+</strong></em></p>
 <table align="center">
   <tr>
     <th>刺突🔪</th>
