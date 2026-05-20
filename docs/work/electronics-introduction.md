@@ -7,7 +7,7 @@ title: "一般教養としての電装"
 
 <br>
 <h1 align="center">一般教養としての電装</h1>
-<p align="center">26代電装班長</p>
+<p align="center">26代電装班長　<a href="https://git.meganekinoko.com">00kenno</a></p>
 <p align="center">2026/05/22 全体MTG</p>
 <br>
 
@@ -22,11 +22,14 @@ title: "一般教養としての電装"
 <br>
 <h1 align="center">この資料の意義✒️</h1>
 <p align="center">
- 電装班はかなりマニアックなため理解者が少ないですが，触れる機会はかなりあります❗️<br>
- ➔ <em><strong>電装への無知がそのままリスクになります</strong></em>⚠️<br>
+ 電装班はかなりマニアックなため理解者が少ないですが，触れる機会はかなりあります！<br>
+ ➔ <em><strong>電装への無知がそのままリスクになります</strong></em>⚠️
 </p>
+<br>
 <p align="center">
  この資料には，（興味がなくても）<em><strong>一般教養として知ってほしいこと</strong></em> をまとめました．
+ <br>
+ これを，電装班の「安全講習」に代えさせてもらいます．
 </p>
 <br>
 
@@ -269,6 +272,112 @@ title: "一般教養としての電装"
      <ul>
        <li>電線のビニールを楽に剥がせます✨️</li>
        <li>電線を切ることもできます✂</li>
+     </ul>
+   </td>
+   <td><img width="300px" src="https://www.vessel.co.jp/userfiles/handtools/3500E2.jpg" /></td>
+   <td><img width="300px" src="https://www.vessel.co.jp/userfiles/handtools/3500E_01.jpg" /></td>
+ </tr>
+</table>
+
+---
+
+
+<br>
+<br>
+<br>
+
+---
+
+<h1>使っている部品 - 1</h1>
+<h2 align="center">様々なセンサ</h2>
+<p align="center">正確なデータが取得できるように，<em><strong>高度なセンサ</strong></em> を使用しています．</p>
+<table align="center">
+ <tr>
+   <td>
+     <h3 align="center">ポイント💡</h2>
+     <ul>
+       <li>高価なものがあります💰️</li>
+       <li>壊れやすいです⚠️</li>
+       <li>基本的に触れないでください🚫</li>
+     </ul>
+   </td>
+   <td><img width="300px" src="https://sensirion.com/_next/image?url=https%3A%2F%2Fsensirion.com%2Fmedia%2Fportfolio%2Fproduct%2Fimage%2F8fa456ba-46f9-4114-bd09-0de157943a04.webp&w=3840&q=75" /></td>
+   <td><img width="300px" src="https://akizukidenshi.com/img/goods/L/129520.jpg" /></td>
+ </tr>
+</table>
+
+---
+
+
+<br>
+<br>
+<br>
+
+---
+
+<h1>使っている部品 - 2</h1>
+<h2 align="center">LiPoバッテリー</h2>
+<p align="center">
+ ハイパワーなサーボモーターを駆動するために，<em><strong>高電圧・大電流が供給可能</strong></em> かつ<em><strong>小型・軽量な</strong></em><br>
+ <em><strong>リチウムポリマー(Li-Po)バッテリー</strong></em> を採用しています．
+</p>
+<table align="center">
+ <tr>
+   <td>
+     <h3 align="center">ポイント💡</h2>
+     <ul>
+       <li>エネルギー密度が高いです💪</li>
+       <li>衝撃に弱いです💥</li>
+       <li>最悪，発火・炎上します🔥</li>
+     </ul>
+   </td>
+   <td><img width="300px" src="https://urgenexrc.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_0a20a367-5da3-4d1a-bf9a-f193aee1499d_2000x.jpg?v=1743492663" /></td>
+   <td><img width="300px" src="https://www.gforce-hobby.jp/images/products/G0996.jpg" /></td>
+ </tr>
+</table>
+
+
+---
+
+<br>
+<br>
+<br>
+
+---
+
+<h3 align="center">⚠️衝撃に注意⚠️</h3>
+<p align="center"><em><strong>膨張したバッテリーを充電してはいけません！🚫</strong></em></p>
+<table align="center">
+  <tr>
+    <th align="center">刺突🔪</th>
+    <th align="center">充電中の炎上🔥</th>
+  </tr>
+  <tr>
+    <td><img width="300px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.com%2FzXUFkPaORpMAAAAM%2Fminayoecn-battery.gif&f=1&nofb=1&ipt=728602f1ce3f91075cdd4152ea22c85ece42f29675578f5c17071184d3f98988" /></td>
+    <td><img width="500px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.makeagif.com%2Fmedia%2F4-25-2021%2FoZg1Ub.gif&f=1&nofb=1&ipt=b074928cc412a97dc9f891e35c0a7225e47097c8fb47521be74ef021774df508" /></td>
+  </tr>
+</table>
+
+---
+
+<br>
+<br>
+<br>
+
+---
+
+<h1>電装班の製作物について</h1>
+<p align="center">
+ <em><strong>非常にデリケート</strong></em> です．<em><strong>手の油分で動作しなくなる</strong></em> 可能性もゼロではないです．
+</p>
+<table align="center">
+ <tr>
+   <td>
+     <h2 align="center">ポイント💡</h2>
+     <ul>
+       <li>製作者以外触れないでください🚫</li>
+       <li>基板に触る場合は端を持ちます✅️</li>
+       <li>基板上の部品には触らないでください🚫</li>
      </ul>
    </td>
    <td><img width="300px" src="https://www.vessel.co.jp/userfiles/handtools/3500E2.jpg" /></td>
