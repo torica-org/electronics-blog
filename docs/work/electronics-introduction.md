@@ -54,7 +54,7 @@ title: "一般教養としての電装"
        <li>プラを溶かさないで🚫</li>
      </ul>
    </td>
-   <td><img width="500px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
+   <td><img width="400px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
  </tr>
 </table>
 
@@ -99,7 +99,7 @@ title: "一般教養としての電装"
   </tr>
   <tr>
     <td><img width="500px" src="https://item-shopping.c.yimg.jp/i/n/kadonodouguya_00042625_1" /></td>
-    <td><img width="500px" src="https://img.huffingtonpost.com/asset/5c6353222300007601220c44.jpeg?ops=scalefit_1440&format=webp" /></td>
+    <td><img width="400px" src="https://img.huffingtonpost.com/asset/5c6353222300007601220c44.jpeg?ops=scalefit_1440&format=webp" /></td>
   </tr>
 </table>
 
