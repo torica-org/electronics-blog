@@ -51,7 +51,7 @@ title: "一般教養としての電装"
        <li>300℃を超える高温🌡️</li>
        <li>なかなか冷めません⚠️</li>
        <li>「はんだ付け」に使います🔧</li>
-       <li>プラを溶かさないで❌️</li>
+       <li>プラを溶かさないで🚫</li>
      </ul>
    </td>
    <td><img width="500px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
@@ -165,7 +165,7 @@ title: "一般教養としての電装"
        <li>300℃弱の高温🌡️</li>
        <li>なかなか冷めません⚠️</li>
        <li>「表面実装」に使います🔧</li>
-       <li>食べ物には使用禁止❌️</li>
+       <li>食べ物には使用禁止🚫</li>
      </ul>
    </td>
    <td><img width="500px" src="https://www.zeusbtc.com/UploadFile/Product/2024092418071866.jpg" /></td>
@@ -294,7 +294,7 @@ title: "一般教養としての電装"
 <table align="center">
  <tr>
    <td>
-     <h3 align="center">ポイント💡</h2>
+     <h3 align="center">ポイント💡</h3>
      <ul>
        <li>高価なものがあります💰️</li>
        <li>壊れやすいです⚠️</li>
@@ -324,10 +324,11 @@ title: "一般教養としての電装"
 <table align="center">
  <tr>
    <td>
-     <h3 align="center">ポイント💡</h2>
+     <h3 align="center">ポイント💡</h3>
      <ul>
        <li>エネルギー密度が高いです💪</li>
        <li>衝撃に弱いです💥</li>
+       <li>ショート(短絡)は厳禁です⚡️</li>
        <li>最悪，発火・炎上します🔥</li>
      </ul>
    </td>
@@ -346,7 +347,7 @@ title: "一般教養としての電装"
 ---
 
 <h3 align="center">⚠️衝撃に注意⚠️</h3>
-<p align="center"><em><strong>膨張したバッテリーを充電してはいけません！🚫</strong></em></p>
+<p align="center"><em><strong>膨張したバッテリーを使用してはいけません！🚫<br>すぐに教えてください！🔔</strong></em></p>
 <table align="center">
   <tr>
     <th align="center">刺突🔪</th>
@@ -368,7 +369,7 @@ title: "一般教養としての電装"
 
 <h1>電装班の製作物について</h1>
 <p align="center">
- <em><strong>非常にデリケート</strong></em> です．<em><strong>手の油分で動作しなくなる</strong></em> 可能性もゼロではないです．
+ <em><strong>非常にデリケート</strong></em> です⚠️ <em><strong>手の油分で動作しなくなる</strong></em> 可能性もゼロではないです．
 </p>
 <table align="center">
  <tr>
@@ -376,13 +377,36 @@ title: "一般教養としての電装"
      <h2 align="center">ポイント💡</h2>
      <ul>
        <li>製作者以外触れないでください🚫</li>
-       <li>基板に触る場合は端を持ちます✅️</li>
+       <li>基板に触る場合は端を持ってください✅️</li>
        <li>基板上の部品には触らないでください🚫</li>
      </ul>
    </td>
-   <td><img width="300px" src="https://www.vessel.co.jp/userfiles/handtools/3500E2.jpg" /></td>
-   <td><img width="300px" src="https://www.vessel.co.jp/userfiles/handtools/3500E_01.jpg" /></td>
+   <td><img width="300px" src="assets/original-pcb.jpg" /></td>
+   <td><img width="300px" src="assets/test-pcb.jpg" /></td>
  </tr>
 </table>
 
 ---
+
+
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<h1 align="center">最後に✒️</h1>
+<p align="center">
+ この資料を通して，少しでも<em><strong>電装への理解を深めてくれたら，</strong></em> <br>
+ ましてや<em><strong>興味を持ってくれたらHappy</strong></em> です☺️
+</p>
+<br>
+<h2 align="center">
+ 安全な鳥科ライフを！✈
+</h2>
+<br>
+
+---
+
+[back](./)
