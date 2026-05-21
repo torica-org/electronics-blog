@@ -322,7 +322,7 @@ title: "一般教養としての電装"
     <td><img width="600px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.makeagif.com%2Fmedia%2F4-25-2021%2FoZg1Ub.gif&f=1&nofb=1&ipt=b074928cc412a97dc9f891e35c0a7225e47097c8fb47521be74ef021774df508" /></td>
   </tr>
 </table>
-<p>発火してしまったら？ ➔ <em><strong>大量の水で消火します💧</strong></em></p>
+<p>発火してしまったら？ ➔ <em><strong>大量の水または消火器</strong></em> で消火します💧</p>
 
 ---
 
