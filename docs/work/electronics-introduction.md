@@ -372,6 +372,7 @@ title: "一般教養としての電装"
 ---
 
 <h1>電装班の製作物について</h1>
+<h2 align="center">オリジナル基板など</h2>
 <p align="center">
  <em><strong>非常にデリケート</strong></em> です⚠️ 
  <br>
@@ -380,9 +381,9 @@ title: "一般教養としての電装"
 <table align="center">
  <tr>
    <td>
-     <h2 align="center">ポイント💡</h2>
+     <h3 align="center">ポイント💡</h3>
      <ul>
-       <li>製作者以外触れないでください🚫</li>
+       <li>製作者以外触れないで<br>ください🚫</li>
        <li>基板の端を持ってください✅️</li>
        <li>基板上の部品には<br>触らないでください🚫</li>
      </ul>
@@ -394,6 +395,32 @@ title: "一般教養としての電装"
 
 ---
 
+<br>
+<br>
+<br>
+
+---
+
+<h1>電装班の製作物について</h1>
+<h2 align="center">3Dプリンター製部品など</h2>
+<p align="center">
+ <em><strong>破損しやすいものがあります</strong></em>⚠️ 
+</p>
+<table align="center">
+ <tr>
+   <td>
+     <h3 align="center">ポイント💡</h3>
+     <ul>
+       <li>丁寧に取り扱って<br>ください✅️</li>
+       <li>机の上に放置しない🚫</li>
+     </ul>
+   </td>
+   <td><img width="300px" src="assets/pitot.jpg" /></td>
+   <td><img width="300px" src="assets/rudder.jpg" /></td>
+ </tr>
+</table>
+
+---
 
 <br>
 <br>
