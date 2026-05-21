@@ -23,11 +23,11 @@ title: "一般教養としての電装"
 <h1 align="center">この資料の意義✒️</h1>
 <p align="center">
  電装班はかなりマニアックなため理解者が少ないですが，触れる機会はかなりあります！<br>
- ➔ <em><strong>電装への無知がそのままリスクになります</strong></em>⚠️
+ ➔ <em><strong>電装への無知がそのままリスクに！</strong></em>⚠️
 </p>
 <br>
 <p align="center">
- この資料には，（興味がなくても）<em><strong>一般教養として知ってほしいこと</strong></em> をまとめました．
+ この資料には，（関わりのない人にも）<em><strong>一般教養として知っていてほしいこと</strong></em> をまとめました．
 </p>
 <br>
 
@@ -290,7 +290,7 @@ title: "一般教養としての電装"
  <em><strong>リチウムポリマー(Li-Po)バッテリー</strong></em> を採用しています．
 </p>
 <ul>
- <li>落下・ショート(短絡)は厳禁です🚫</li>
+ <li>落下・ショート(短絡)は厳禁です🚫(やってしまったら報告)</li>
  <li>エネルギー密度が高いため，破損すると発火・炎上します🔥</li>
 </ul>
 <table>
@@ -322,6 +322,7 @@ title: "一般教養としての電装"
     <td><img width="600px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.makeagif.com%2Fmedia%2F4-25-2021%2FoZg1Ub.gif&f=1&nofb=1&ipt=b074928cc412a97dc9f891e35c0a7225e47097c8fb47521be74ef021774df508" /></td>
   </tr>
 </table>
+<p>発火してしまったら？ ➔ <em><strong>大量の水で消火します💧</strong></em></p>
 
 ---
 
