@@ -46,8 +46,8 @@ title: "一般教養としての電装"
  <tr>
    <td><img width="400px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
    <td>
-     <h2 align="center">はんだごて</h2>
-     <p align="center">⚠️やけどに注意🌡️</p>
+     <h2>はんだごて</h2>
+     <p>⚠️やけどに注意🌡️</p>
      <ul>
        <li>300℃を超える高温🌡️</li>
        <li>なかなか冷めません⚠️</li>
@@ -108,7 +108,7 @@ title: "一般教養としての電装"
     <li>はんだごての<em><strong>金属部分全て</strong></em></li>
     <li>はんだごてを置く<em><strong>こて台</strong></em></li>
    </ul>
-   <h2 align="center">⇐ こて台</h2>
+   <h2>こて台</h2>
   </td>
  </tr>
 </table>
@@ -124,7 +124,6 @@ title: "一般教養としての電装"
 <br>
 <h3 align="center">⚠️注意事項⚠️</h3>
 <p align="center">はんだごての使用に際して，<em><strong>以下のことを忘れないでください！</strong></em></p>
-<ul align="center">
 <p align="center">
  📌 はんだごてを使っている人の周りをむやみに動き回らない
  <br> 
@@ -143,17 +142,17 @@ title: "一般教養としての電装"
 <h1>使っている道具 - 2</h1>
 <table align="center">
  <tr>
+   <td><img width="500px" src="https://www.zeusbtc.com/UploadFile/Product/2024092418071866.jpg" /></td>
    <td>
-     <h2 align="center">ホットプレート</h2>
-     <p align="center">⚠️やけどに注意🌡️</p>
+     <h2>ホットプレート</h2>
+     <p>⚠️やけどに注意🌡️</p>
      <ul>
-       <li>300℃弱の高温🌡️</li>
-       <li>なかなか冷めません⚠️</li>
-       <li>「表面実装」に使います🔧</li>
-       <li>食べ物には使用禁止🚫</li>
+      <li>300℃弱の高温🌡️</li>
+      <li>なかなか冷めません⚠️</li>
+      <li>「表面実装」に使います🔧</li>
+      <li>食べ物には使用禁止🚫</li>
      </ul>
    </td>
-   <td><img width="500px" src="https://www.zeusbtc.com/UploadFile/Product/2024092418071866.jpg" /></td>
  </tr>
 </table>
 
