@@ -322,7 +322,7 @@ title: "一般教養としての電装"
     <td><img width="600px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.makeagif.com%2Fmedia%2F4-25-2021%2FoZg1Ub.gif&f=1&nofb=1&ipt=b074928cc412a97dc9f891e35c0a7225e47097c8fb47521be74ef021774df508" /></td>
   </tr>
 </table>
-<p>発火してしまったら？ ➔ <em><strong>大量の水または消火器</strong></em> で消火します💧</p>
+<p>発火してしまったら？ ➔ <em><strong>大量の水または消火器</strong></em> で消火します🧯</p>
 
 ---
 
@@ -343,7 +343,7 @@ title: "一般教養としての電装"
 </table>
 <ul>
  <li>高価です💰️</li>
- <li>強力に垂直尾翼を駆動します⚙</li>
+ <li>強力に垂直尾翼を駆動します⚙️</li>
 </ul>
 
 <br>
@@ -377,8 +377,8 @@ title: "一般教養としての電装"
 <h2><em><strong>必ずコネクターを持って</strong></em> 抜き差ししてください！</h2>
 <p>
  断線してしまう可能性があります⚠️<br>
- <em><strong>ロック機構</strong></em> がある場合があります🔒️<br>
- 固い場合でも，慎重に力を入れてください✅️
+ コネクターには<em><strong>ロック機構</strong></em> がある場合があります🔒️<br>
+ 抜けにくい場合でも，慎重に力を入れてください✅️
 </p>
 
 <table>
