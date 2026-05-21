@@ -28,8 +28,6 @@ title: "一般教養としての電装"
 <br>
 <p align="center">
  この資料には，（興味がなくても）<em><strong>一般教養として知ってほしいこと</strong></em> をまとめました．
- <br>
- これを，電装班の「安全講習」に代えさせてもらいます．
 </p>
 <br>
 
@@ -42,21 +40,22 @@ title: "一般教養としての電装"
 ---
 
 <h1>使っている道具 - 1</h1>
-<table align="center">
+<table>
  <tr>
-   <td align="right"><img width="400px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
-   <td align="left">
-     <h2>はんだごて</h2>
-     <p>⚠️やけどに注意🌡️</p>
-     <ul>
-       <li>300℃を超える高温🌡️</li>
-       <li>なかなか冷めません⚠️</li>
-       <li>「はんだ付け」に使います🔧</li>
-       <li>プラを溶かさないで🚫</li>
-     </ul>
+   <td>
+     <h2 align="center">はんだごて</h2>
+     <p align="center">⚠️やけどに注意🌡️</p>
    </td>
+   <td><img width="400px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
  </tr>
 </table>
+
+<ul>
+ <li>300℃を超える高温🌡️</li>
+ <li>なかなか冷めません⚠️</li>
+ <li>「はんだ付け」に使います🔧</li>
+ <li>プラを溶かさないで🚫</li>
+</ul>
 
 <br>
 <br>
