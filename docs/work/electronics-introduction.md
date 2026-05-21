@@ -225,7 +225,7 @@ title: "一般教養としての電装"
    <td>
      <h2 align="center">ニッパー</h2>
      <ul>
-       <li>電線を切断できます✂</li>
+       <li>電線を<br>切断できます✂</li>
      </ul>
    </td>
    <td><img width="300px" src="https://m.media-amazon.com/images/I/61Gs4QLclyL._AC_SL1500_.jpg" /></td>
@@ -249,7 +249,7 @@ title: "一般教養としての電装"
      <ul>
        <li>強く掴むことができます💪</li>
        <li>狭い場所でも使えます✅️</li>
-       <li>曲げる，切るなど多機能です✨️</li>
+       <li>曲げる，切るなど多機能✨️</li>
      </ul>
    </td>
    <td><img width="300px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F71xNRA%2BoT-L._AC_.jpg&f=1&nofb=1&ipt=64af0b2b1b39992de3340d47a894d7c88fa11e496afde88a9c286a9e86886224" /></td>
@@ -271,8 +271,7 @@ title: "一般教養としての電装"
    <td>
      <h2 align="center">ワイヤーストリッパー</h2>
      <ul>
-       <li>電線のビニールを楽に剥がせます✨️</li>
-       <li>電線を切ることもできます✂</li>
+       <li>電線のビニールを<br>楽に剥がせます✨️</li>
      </ul>
    </td>
    <td><img width="300px" src="https://www.vessel.co.jp/userfiles/handtools/3500E2.jpg" /></td>
@@ -299,7 +298,7 @@ title: "一般教養としての電装"
      <ul>
        <li>高価なものがあります💰️</li>
        <li>壊れやすいです⚠️</li>
-       <li>基本的に触れないでください🚫</li>
+       <li>基本的に触れないで🚫</li>
      </ul>
    </td>
    <td><img width="300px" src="https://sensirion.com/_next/image?url=https%3A%2F%2Fsensirion.com%2Fmedia%2Fportfolio%2Fproduct%2Fimage%2F8fa456ba-46f9-4114-bd09-0de157943a04.webp&w=3840&q=75" /></td>
@@ -384,8 +383,8 @@ title: "一般教養としての電装"
      <h2 align="center">ポイント💡</h2>
      <ul>
        <li>製作者以外触れないでください🚫</li>
-       <li>基板に触る場合は端を持ってください✅️</li>
-       <li>基板上の部品には触らないでください🚫</li>
+       <li>基板の端を持ってください✅️</li>
+       <li>基板上の部品には<br>触らないでください🚫</li>
      </ul>
    </td>
    <td><img width="300px" src="assets/original-pcb.jpg" /></td>
