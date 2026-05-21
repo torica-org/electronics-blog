@@ -58,13 +58,9 @@ title: "一般教養としての電装"
  </tr>
 </table>
 
----
-
 <br>
 <br>
 <br>
-
----
 
 <h3 align="center">❓️はんだ付けとは❓️</h3>
 <p align="center">
@@ -83,13 +79,9 @@ title: "一般教養としての電装"
  </tr>
 </table>
 
----
-
 <br>
 <br>
 <br>
-
----
 
 <h3 align="center">⚠️持ち方に注意⚠️</h3>
 <table align="center">
@@ -103,13 +95,9 @@ title: "一般教養としての電装"
   </tr>
 </table>
 
----
-
 <br>
 <br>
 <br>
-
----
 
 <h3 align="center">🌡️熱くなる場所🌡️</h3>
 <table>
@@ -131,13 +119,10 @@ title: "一般教養としての電装"
  </tr>
 </table>
 
----
 
 <br>
 <br>
 <br>
-
----
 
 <br>
 <h3 align="center">⚠️注意事項⚠️</h3>
@@ -173,13 +158,9 @@ title: "一般教養としての電装"
  </tr>
 </table>
 
----
-
 <br>
 <br>
 <br>
-
----
 
 <h3 align="center">❓️表面実装とは❓️</h3>
 <p align="center">
@@ -194,13 +175,9 @@ title: "一般教養としての電装"
  </tr>
 </table>
 
----
-
 <br>
 <br>
 <br>
-
----
 
 <br>
 <h3 align="center">⚠️注意事項⚠️</h3>
@@ -337,14 +314,9 @@ title: "一般教養としての電装"
  </tr>
 </table>
 
-
----
-
 <br>
 <br>
 <br>
-
----
 
 <h3 align="center">⚠️衝撃に注意⚠️</h3>
 <p align="center"><em><strong>
@@ -393,15 +365,11 @@ title: "一般教養としての電装"
  </tr>
 </table>
 
----
 
 <br>
 <br>
 <br>
 
----
-
-<h1>電装班の製作物について</h1>
 <h2 align="center">3Dプリンター製部品など</h2>
 <p align="center">
  <em><strong>破損しやすいものがあります</strong></em>⚠️ 
@@ -415,8 +383,8 @@ title: "一般教養としての電装"
        <li>机の上に放置しない🚫</li>
      </ul>
    </td>
-   <td><img width="300px" src="assets/pitot.jpg" /></td>
-   <td><img width="300px" src="assets/rudder.jpg" /></td>
+   <td><img width="370px" src="assets/pitot.jpg" /></td>
+   <td><img width="230px" src="assets/rudder.jpg" /></td>
  </tr>
 </table>
 
