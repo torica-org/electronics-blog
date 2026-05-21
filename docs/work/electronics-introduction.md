@@ -61,14 +61,14 @@ title: "一般教養としての電装"
 <br>
 <br>
 
-<h3 align="center">❓️はんだ付けとは❓️</h3>
-<p align="center">
+<h3>❓️はんだ付けとは❓️</h3>
+<p>
  「はんだ」と呼ばれる低い温度で融ける合金で金属同士を継ぎ合わせることです．
  <br>
  導電性が良いので，<em><strong>電子回路の製作</strong></em> に用いられます．
  <br>
- <em><strong>基板に対する部品の取り付け</strong></em> だけでなく，
- <em><strong>ケーブルの製作</strong></em> でも必要になります．
+ <em><strong>基板に対する部品の取り付け</strong></em> や，
+ <em><strong>ケーブルの製作</strong></em> で行います．
 </p>
 <table>
  <tr>
@@ -97,22 +97,22 @@ title: "一般教養としての電装"
 <br>
 <br>
 
-<h3 align="center">🌡️熱くなる場所🌡️</h3>
-<table>
- <tr>
-  <td><img width="500px" src="https://www.goot.jp/storage/images/products/1764554219de75y0caw7jxhVxUZexpIl_l.jpeg" /></td>
-  <td>
+<h3>🌡️熱くなる場所🌡️</h3>
    <ul>
     <li>はんだごての<em><strong>金属部分全て</strong></em></li>
     <li>はんだごてを置く<em><strong>こて台</strong></em></li>
    </ul>
+<table>
+ <tr>
+  <td><img width="500px" src="https://www.goot.jp/storage/images/products/1764554219de75y0caw7jxhVxUZexpIl_l.jpeg" /></td>
+  <td>
    <h2>こて台</h2>
   </td>
  </tr>
 </table>
- <p align="center">
-    当然見た目にはわからないので注意⚠️
-    熱くなっていることを<em><strong>常に疑ってください！</strong></em>🌡️
+ <p>
+    当然見た目にはわからないので注意⚠️<br>
+    熱いことを<em><strong>常に疑ってください！</strong></em>🌡️
 </p>
 
 <br>
@@ -120,12 +120,13 @@ title: "一般教養としての電装"
 <br>
 
 <br>
-<h3 align="center">⚠️注意事項⚠️</h3>
-<p align="center">はんだごての使用に際して，<em><strong>以下のことを忘れないでください！</strong></em></p>
-<p align="center">
- 📌 はんだごてを使っている人の周りをむやみに動き回らない
- <br> 
- 📌 はんだごてを使うときは「高温であること」を周知する
+<h3>⚠️注意事項⚠️</h3>
+<p>はんだごてについて，<em><strong>以下のことを忘れないでください！</strong></em></p>
+<ul>
+ <li>使っている人の周りをむやみに動き回らない！🚫</li> 
+ <li>使うときは「高温であること」を周知する！🔔</li>
+ <li>使わないときは必ずコンセントから抜くこと！🔌</li>
+</ul>
 </p>
 <br>
 
