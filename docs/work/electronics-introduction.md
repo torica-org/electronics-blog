@@ -47,16 +47,18 @@ title: "一般教養としての電装"
    <td>
      <h2 align="center">はんだごて</h2>
      <p align="center">⚠️やけどに注意🌡️</p>
-     <ul>
-       <li>300℃を超える高温🌡️</li>
-       <li>なかなか冷めません⚠️</li>
-       <li>「はんだ付け」に使います🔧</li>
-       <li>プラを溶かさないで🚫</li>
-     </ul>
    </td>
    <td><img width="400px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
  </tr>
 </table>
+<div align="center">
+  <ul>
+    <li>300℃を超える高温🌡️</li>
+    <li>なかなか冷めません⚠️</li>
+    <li>「はんだ付け」に使います🔧</li>
+    <li>プラを溶かさないで🚫</li>
+  </ul>
+</div>
 
 <br>
 <br>
