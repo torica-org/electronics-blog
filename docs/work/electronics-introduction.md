@@ -215,7 +215,7 @@ title: "一般教養としての電装"
  <li>六角ナットを回すなど，強く掴む用途に向きます💪</li>
  <li>狭い場所でも使えます✅️</li>
  <li>曲げる，切るなど多機能です✨️</li>
-</li>
+</ul>
 <table>
  <tr>
    <td><img width="600px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F71xNRA%2BoT-L._AC_.jpg&f=1&nofb=1&ipt=64af0b2b1b39992de3340d47a894d7c88fa11e496afde88a9c286a9e86886224" /></td>
@@ -324,10 +324,10 @@ title: "一般教養としての電装"
 <h1>使っている部品 - 3</h1>
 <table>
  <tr>
-   <td><img width="500px" src="https://kondo-robot.com/w/wp-content/uploads/03030_11.jpg" /></td>
    <td>
      <h2>サーボモータ</h2>
    </td>
+   <td><img width="500px" src="https://kondo-robot.com/w/wp-content/uploads/03030_11.jpg" /></td>
  </tr>
 </table>
 <ul>
@@ -346,14 +346,10 @@ title: "一般教養としての電装"
  <li>無理やり動かすと，逆起電力により破壊する可能性があります⚡️</li>
 </ul>
 <tr>
-<td width="400px"><img src="assets/parallel-linkage.jpg" /></td>
-<td width="300px"><img src="assets/fin.jpg" /></td>
+<td><img width="400px" src="assets/parallel-linkage.jpg" /></td>
+<td><img width="300px" src="assets/fin.jpg" /></td>
 </tr>
 
-<br>
-<br>
-<br>
-
 ---
 
 <br>
@@ -362,17 +358,13 @@ title: "一般教養としての電装"
 
 ---
 
-<h1>使っている部品 - 1</h1>
-<h2>様々なセンサ</h2>
-<p>正確なデータが取得できるように，<em><strong>高度なセンサ</strong></em> を使用しています．</p>
-<ul>
- <li>非常に高価なものがあります💰️</li>
- <li>壊れやすいので，基本的に触れないでください🚫</li>
-</ul>
+<h1>ケーブルの取り扱い</h1>
+<h2><em><strong>必ずコネクターを持って</strong></em> 抜き差ししてください！</h2>
+<p>断線してしまう可能性があります⚠️</p>
 <table>
  <tr>
-   <td><img width="500px" src="https://sensirion.com/_next/image?url=https%3A%2F%2Fsensirion.com%2Fmedia%2Fportfolio%2Fproduct%2Fimage%2F8fa456ba-46f9-4114-bd09-0de157943a04.webp&w=3840&q=75" /></td>
-   <td><img width="500px" src="https://akizukidenshi.com/img/goods/L/129520.jpg" /></td>
+   <td><img width="500px" src="https://as2.ftcdn.net/jpg/02/05/31/03/1000_F_205310316_jJtSkFxu6VPitCkKD5ct319oKW2GNCsx.jpg" /></td>
+   <td><img width="400px" src="https://www.jst.co.uk/images/products/pa.jpg" /></td>
  </tr>
 </table>
 
