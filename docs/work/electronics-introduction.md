@@ -42,11 +42,11 @@ title: "一般教養としての電装"
 <h1>使っている道具 - 1</h1>
 <table>
  <tr>
-   <td><img width="400px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
    <td>
      <h2 align="center">はんだごて</h2>
      <p align="center">⚠️やけどに注意🌡️</p>
    </td>
+   <td><img width="400px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
  </tr>
 </table>
 <ul>
@@ -103,8 +103,8 @@ title: "一般教養としての電装"
    </ul>
 <table>
  <tr>
-  <td><img width="500px" src="https://www.goot.jp/storage/images/products/1764554219de75y0caw7jxhVxUZexpIl_l.jpeg" /></td>
   <td><h2>こて台</h2></td>
+  <td><img width="500px" src="https://www.goot.jp/storage/images/products/1764554219de75y0caw7jxhVxUZexpIl_l.jpeg" /></td>
  </tr>
 </table>
  <p>
@@ -124,7 +124,6 @@ title: "一般教養としての電装"
  <li>使うときは<em><strong>「高温であること」を周知する</strong></em>🔔</li>
  <li>使わないときは<em><strong>必ずコンセントから抜く</strong></em>🔌</li>
 </ul>
-</p>
 <br>
 
 ---
@@ -138,11 +137,11 @@ title: "一般教養としての電装"
 <h1>使っている道具 - 2</h1>
 <table>
  <tr>
-   <td><img width="500px" src="https://www.zeusbtc.com/UploadFile/Product/2024092418071866.jpg" /></td>
    <td>
      <h2>ホットプレート</h2>
      <p>⚠️やけどに注意🌡️</p>
    </td>
+   <td><img width="500px" src="https://www.zeusbtc.com/UploadFile/Product/2024092418071866.jpg" /></td>
  </tr>
 </table>
 <ul>
@@ -347,8 +346,8 @@ title: "一般教養としての電装"
  <li>無理やり動かすと，逆起電力により破壊する可能性があります⚡️</li>
 </ul>
 <tr>
-<td><img width="400px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.com%2FzXUFkPaORpMAAAAM%2Fminayoecn-battery.gif&f=1&nofb=1&ipt=728602f1ce3f91075cdd4152ea22c85ece42f29675578f5c17071184d3f98988" /></td>
-<td><img width="600px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.makeagif.com%2Fmedia%2F4-25-2021%2FoZg1Ub.gif&f=1&nofb=1&ipt=b074928cc412a97dc9f891e35c0a7225e47097c8fb47521be74ef021774df508" /></td>
+<td width="400px"><img src="assets/parallel-linkage.jpg" /></td>
+<td width="300px"><img src="assets/fin.jpg" /></td>
 </tr>
 
 <br>
