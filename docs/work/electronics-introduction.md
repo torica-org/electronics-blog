@@ -314,8 +314,8 @@ title: "一般教養としての電装"
     <th>充電中の炎上🔥</th>
   </tr>
   <tr>
-    <td><img width="300px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.com%2FzXUFkPaORpMAAAAM%2Fminayoecn-battery.gif&f=1&nofb=1&ipt=728602f1ce3f91075cdd4152ea22c85ece42f29675578f5c17071184d3f98988" /></td>
-    <td><img width="500px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.makeagif.com%2Fmedia%2F4-25-2021%2FoZg1Ub.gif&f=1&nofb=1&ipt=b074928cc412a97dc9f891e35c0a7225e47097c8fb47521be74ef021774df508" /></td>
+    <td><img width="400px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.com%2FzXUFkPaORpMAAAAM%2Fminayoecn-battery.gif&f=1&nofb=1&ipt=728602f1ce3f91075cdd4152ea22c85ece42f29675578f5c17071184d3f98988" /></td>
+    <td><img width="600px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.makeagif.com%2Fmedia%2F4-25-2021%2FoZg1Ub.gif&f=1&nofb=1&ipt=b074928cc412a97dc9f891e35c0a7225e47097c8fb47521be74ef021774df508" /></td>
   </tr>
 </table>
 
@@ -342,8 +342,8 @@ title: "一般教養としての電装"
 </p>
 <table align="center">
  <tr>
-   <td><img width="300px" src="assets/original-pcb.jpg" /></td>
-   <td><img width="300px" src="assets/test-pcb.jpg" /></td>
+   <td><img width="500px" src="assets/original-pcb.jpg" /></td>
+   <td><img width="500px" src="assets/test-pcb.jpg" /></td>
  </tr>
 </table>
 
