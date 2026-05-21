@@ -42,11 +42,12 @@ title: "一般教養としての電装"
 <h1>使っている道具 - 1</h1>
 <table>
  <tr>
-   <td align="left">
-     <h2 align="center">はんだごて</h2>
-     <p align="center">⚠️やけどに注意🌡️</p>
+   <td><img width="500px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
+   <td>
+    <img width="500px" />
+     <h2>はんだごて</h2>
+     <p>⚠️やけどに注意🌡️</p>
    </td>
-   <td><img width="50%" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
  </tr>
 </table>
 <ul>
@@ -103,7 +104,10 @@ title: "一般教養としての電装"
 <table>
  <tr>
   <td><img width="500px" src="https://www.goot.jp/storage/images/products/1764554219de75y0caw7jxhVxUZexpIl_l.jpeg" /></td>
-  <td align="left"><h2>こて台</h2></td>
+  <td>
+    <img width="500px" />
+   <h2>こて台</h2>
+  </td>
  </tr>
 </table>
  <p>
@@ -137,7 +141,8 @@ title: "一般教養としての電装"
 <table>
  <tr>
    <td><img width="500px" src="https://www.zeusbtc.com/UploadFile/Product/2024092418071866.jpg" /></td>
-   <td align="left">
+   <td>
+    <img width="500px" />
      <h2>ホットプレート</h2>
      <p>⚠️やけどに注意🌡️</p>
    </td>
@@ -335,7 +340,8 @@ title: "一般教養としての電装"
 <table>
  <tr>
    <td><img width="500px" src="https://kondo-robot.com/w/wp-content/uploads/03030_11.jpg" /></td>
-   <td align="left">
+   <td>
+    <img width="500px" />
      <h2>サーボモーター</h2>
    </td>
  </tr>
