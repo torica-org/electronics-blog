@@ -51,10 +51,10 @@ title: "一般教養としての電装"
 </table>
 
 <ul>
- <li>300℃を超える高温🌡️</li>
+ <li>300℃を超える高温になります🌡️</li>
  <li>なかなか冷めません⚠️</li>
  <li>「はんだ付け」に使います🔧</li>
- <li>プラを溶かさないで🚫</li>
+ <li>はんだ以外を溶かさないでください🚫</li>
 </ul>
 
 <br>
@@ -81,11 +81,11 @@ title: "一般教養としての電装"
 <br>
 <br>
 
-<h3 align="center">⚠️持ち方に注意⚠️</h3>
-<table>
+<h3>⚠️持ち方に注意⚠️</h3>
+<table align="center">
   <tr>
-    <th align="center">✅️正しい</th>
-    <th align="center">❌️間違い</th>
+    <th>✅️正しい</th>
+    <th>❌️間違い</th>
   </tr>
   <tr>
     <td><img width="500px" src="https://item-shopping.c.yimg.jp/i/n/kadonodouguya_00042625_1" /></td>
@@ -104,10 +104,10 @@ title: "一般教養としての電装"
    </ul>
 <table>
  <tr>
-  <td><img width="500px" src="https://www.goot.jp/storage/images/products/1764554219de75y0caw7jxhVxUZexpIl_l.jpeg" /></td>
   <td>
    <h2>こて台</h2>
   </td>
+  <td><img width="500px" src="https://www.goot.jp/storage/images/products/1764554219de75y0caw7jxhVxUZexpIl_l.jpeg" /></td>
  </tr>
 </table>
  <p>
@@ -145,15 +145,16 @@ title: "一般教養としての電装"
    <td>
      <h2>ホットプレート</h2>
      <p>⚠️やけどに注意🌡️</p>
-     <ul>
-      <li>300℃弱の高温🌡️</li>
-      <li>なかなか冷めません⚠️</li>
-      <li>「表面実装」に使います🔧</li>
-      <li>食べ物には使用禁止🚫</li>
-     </ul>
    </td>
  </tr>
 </table>
+
+<ul>
+<li>300℃弱の高温になります🌡️</li>
+<li>なかなか冷めません⚠️</li>
+<li>「表面実装」に使います🔧</li>
+<li>食べ物には使用しないでください🚫</li>
+</ul>
 
 <br>
 <br>
