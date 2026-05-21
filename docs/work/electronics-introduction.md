@@ -42,11 +42,11 @@ title: "一般教養としての電装"
 <h1>使っている道具 - 1</h1>
 <table>
  <tr>
-   <td><img width="400px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
    <td align="left">
      <h2 align="center">はんだごて</h2>
      <p align="center">⚠️やけどに注意🌡️</p>
    </td>
+   <td><img width="50%" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
  </tr>
 </table>
 <ul>
@@ -336,7 +336,7 @@ title: "一般教養としての電装"
  <tr>
    <td><img width="500px" src="https://kondo-robot.com/w/wp-content/uploads/03030_11.jpg" /></td>
    <td align="left">
-     <h2>サーボモータ</h2>
+     <h2>サーボモーター</h2>
    </td>
  </tr>
 </table>
