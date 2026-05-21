@@ -374,7 +374,9 @@ title: "一般教養としての電装"
 
 <h1>電装班の製作物について</h1>
 <p align="center">
- <em><strong>非常にデリケート</strong></em> です⚠️ <em><strong>手の油分で動作しなくなる</strong></em> 可能性もゼロではないです．
+ <em><strong>非常にデリケート</strong></em> です⚠️ 
+ <br>
+ <em><strong>手の油分で動作しなくなる</strong></em> こともあります！
 </p>
 <table align="center">
  <tr>
