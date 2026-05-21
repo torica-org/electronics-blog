@@ -413,7 +413,7 @@ title: "一般教養としての電装"
  <em><strong>手の油分で動作しなくなる</strong></em> こともあります！
 </p>
 <ul>
- <li>製作者以外触れないでください🚫</li>
+ <li>基本的に，製作者以外触れないでください🚫</li>
  <li>基板を持つときは端を持ってください✅️</li>
  <li>基板上の部品には触らないでください🚫</li>
 </ul>
@@ -462,8 +462,8 @@ title: "一般教養としての電装"
 <br>
 <h1 align="center">最後に✒️</h1>
 <p align="center">
- この資料を通して，少しでも<em><strong>電装への理解を深めてくれたら，</strong></em> <br>
- ましてや<em><strong>興味を持ってくれたらHappy</strong></em> です☺️
+ この資料を通して，少しでも<em><strong>電装を理解してくれたなら，</strong></em><br>
+ あわよくば<em><strong>興味を持ってくれたならHappy</strong></em> です☺️
 </p>
 <br>
 <h2 align="center">
