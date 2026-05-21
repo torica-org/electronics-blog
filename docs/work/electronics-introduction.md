@@ -323,19 +323,18 @@ title: "一般教養としての電装"
 ---
 
 <h1>電装班の製作物について</h1>
-<p align="center">
- <em><strong>非常にデリケート</strong></em> です⚠️ 
+<h2>オリジナル基板など</h2>
+<p>
+ <em><strong>非常にデリケート</strong></em> です⚠️
  <br>
  <em><strong>手の油分で動作しなくなる</strong></em> こともあります！
 </p>
-<p align="center">
- 📌 製作者以外触れないでください🚫
- <br>
- 📌 基板を持つときは端を持ってください✅️
- <br>
- 📌 基板上の部品には触らないでください🚫
-</p>
-<table align="center">
+<ul>
+ <li>製作者以外触れないでください🚫</li>
+ <li>基板を持つときは端を持ってください✅️</li>
+ <li>基板上の部品には触らないでください🚫</li>
+</ul>
+<table>
  <tr>
    <td><img width="500px" src="assets/original-pcb.jpg" /></td>
    <td><img width="500px" src="assets/test-pcb.jpg" /></td>
@@ -346,16 +345,15 @@ title: "一般教養としての電装"
 <br>
 <br>
 
-<h2 align="center">3Dプリンター製部品など</h2>
-<p align="center">
+<h2>3Dプリンター製部品など</h2>
+<p>
  <em><strong>破損しやすいものがあります</strong></em>⚠️ 
 </p>
-<p align="center">
- 📌 丁寧に取り扱ってください✅️
- <br>
- 📌 作った人も机の上に放置しないでください🚫
-</p>
-<table align="center">
+<ul>
+ <li>丁寧に取り扱ってください✅️</li>
+ <li>作った人も机の上に放置しないでください🚫</li>
+</ul>
+<table>
  <tr>
    <td><img width="570px" src="assets/pitot.jpg" /></td>
    <td><img width="430px" src="assets/rudder.jpg" /></td>
