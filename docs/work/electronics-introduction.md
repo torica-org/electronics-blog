@@ -42,7 +42,7 @@ title: "一般教養としての電装"
 ---
 
 <h1>使っている道具 - 1</h1>
-<table align="left">
+<table>
  <tr>
    <td><img width="400px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
    <td>
@@ -64,15 +64,14 @@ title: "一般教養としての電装"
 
 <h3 align="center">❓️はんだ付けとは❓️</h3>
 <p align="center">
- 「はんだ」と呼ばれる<em><strong>低い温度で融ける合金</strong></em> で
- 金属同士を<em><strong>継ぎ合わせること</strong></em> です．
+ 「はんだ」と呼ばれる低い温度で融ける合金で金属同士を継ぎ合わせることです．
  <br>
- <em><strong>導電性が良い</strong></em> ので，<em><strong>電子回路の製作</strong></em> に用いられます．
+ 導電性が良いので，<em><strong>電子回路の製作</strong></em> に用いられます．
  <br>
- <em><strong>基板に部品を取り付ける</strong></em> ときだけでなく，
+ <em><strong>基板に対する部品の取り付け</strong></em> だけでなく，
  <em><strong>ケーブルの製作</strong></em> でも必要になります．
 </p>
-<table align="center">
+<table>
  <tr>
   <td><img width="500px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fweb.mit.edu%2F2.00b%2Fwww%2Ftoobers%2Fassets%2Fimages%2Fpcb-assembly%2Fsoldering-closeup.gif&f=1&nofb=1&ipt=f3c29ad1939b1ddc6f0fb373fd07832f35d8758c4876eb306f7c421d2230f7e4" /></td>
   <td><img width="500px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia2.giphy.com%2Fmedia%2Fv1.Y2lkPTc5MGI3NjExNXpxbnl4bXNmNmowc3NrbzU1ZGRvcnJod3ZzOW5pc2x1aHF2enF4OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw%2FCThYOpI5QPPaW7ioPF%2Fgiphy.gif&f=1&nofb=1&ipt=4495bed3de2a78c0e48f087143b35b1719b489b484694b6e83f34eb04b9b1c49" /></td>
@@ -84,7 +83,7 @@ title: "一般教養としての電装"
 <br>
 
 <h3 align="center">⚠️持ち方に注意⚠️</h3>
-<table align="center">
+<table>
   <tr>
     <th align="center">✅️正しい</th>
     <th align="center">❌️間違い</th>
@@ -100,7 +99,7 @@ title: "一般教養としての電装"
 <br>
 
 <h3 align="center">🌡️熱くなる場所🌡️</h3>
-<table align="left">
+<table>
  <tr>
   <td><img width="500px" src="https://www.goot.jp/storage/images/products/1764554219de75y0caw7jxhVxUZexpIl_l.jpeg" /></td>
   <td>
@@ -140,7 +139,7 @@ title: "一般教養としての電装"
 ---
 
 <h1>使っている道具 - 2</h1>
-<table align="left">
+<table>
  <tr>
    <td><img width="500px" src="https://www.zeusbtc.com/UploadFile/Product/2024092418071866.jpg" /></td>
    <td>
