@@ -81,7 +81,7 @@ title: "一般教養としての電装"
 <br>
 
 <h3>⚠️持ち方に注意⚠️</h3>
-<table align="center">
+<table>
   <tr>
     <th>✅️正しい</th>
     <th>❌️間違い</th>
@@ -161,7 +161,11 @@ title: "一般教養としての電装"
  <br>
  <em><strong>最小1mm以下の小さな部品</strong></em> を<em><strong>一度に</strong></em> はんだ付けする技術です．
 </p>
-<table align="center">
+<table>
+ <tr>
+  <th>1mm x 0.5mmのチップ抵抗</th>
+  <th>SOPのICチップ</th>
+ </tr>
  <tr>
   <td><img width="500px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.makeagif.com%2Fmedia%2F5-17-2022%2FYOSttZ.gif&f=1&nofb=1&ipt=e7d6eef4688a4176357e672bb8b870463d4bd23b7e97cbef6aaf8b312d4fb7dc" /></td>
   <td><img width="500px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.mbedded.ninja%2F_astro%2Fsmd-components-in-reflow.iSnhyEO6.gif&f=1&nofb=1&ipt=b457a64b4644543b7fa67729e9c94d8f9e32b99c33036075d7d3697f7fb509a4" /></td>
@@ -261,6 +265,10 @@ title: "一般教養としての電装"
 </ul>
 <table>
  <tr>
+  <th>差圧センサ(約¥6000)</th>
+  <th>超音波センサ(約¥3000)</th>
+ </tr>
+ <tr>
    <td><img width="500px" src="https://sensirion.com/_next/image?url=https%3A%2F%2Fsensirion.com%2Fmedia%2Fportfolio%2Fproduct%2Fimage%2F8fa456ba-46f9-4114-bd09-0de157943a04.webp&w=3840&q=75" /></td>
    <td><img width="500px" src="https://akizukidenshi.com/img/goods/L/129520.jpg" /></td>
  </tr>
@@ -286,6 +294,8 @@ title: "一般教養としての電装"
  <li>エネルギー密度が高いため，破損すると発火・炎上します🔥</li>
 </ul>
 <table>
+ <th>LiPoバッテリー</th>
+ <th>防爆バッグ</th>
  <tr>
    <td><img width="500px" src="https://urgenexrc.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_0a20a367-5da3-4d1a-bf9a-f193aee1499d_2000x.jpg?v=1743492663" /></td>
    <td><img width="500px" src="https://www.gforce-hobby.jp/images/products/G0996.jpg" /></td>
@@ -345,10 +355,14 @@ title: "一般教養としての電装"
  <li>とても強力なので，指を挟んだりしないでください⚠️</li>
  <li>無理やり動かすと，逆起電力により破壊する可能性があります⚡️</li>
 </ul>
-<tr>
-<td><img width="400px" src="assets/parallel-linkage.jpg" /></td>
-<td><img width="300px" src="assets/fin.jpg" /></td>
-</tr>
+<table>
+ <th>平行リンク機構</th>
+ <th>垂直尾翼</th>
+ <tr>
+  <td><img width="350px" src="assets/parallel-linkage.jpg" /></td>
+  <td><img width="200px" src="assets/fin.jpg" /></td>
+ </tr>
+</table>
 
 ---
 
@@ -360,11 +374,20 @@ title: "一般教養としての電装"
 
 <h1>ケーブルの取り扱い</h1>
 <h2><em><strong>必ずコネクターを持って</strong></em> 抜き差ししてください！</h2>
-<p>断線してしまう可能性があります⚠️</p>
+<p>
+ 断線してしまう可能性があります⚠️<br>
+ <em><strong>ロック機構</strong></em> がある場合があります🔒️<br>
+ 固い場合でも，慎重に力を入れてください✅️
+</p>
+
 <table>
  <tr>
+  <th>コンセントの抜き差し</th>
+  <th>PAコネクタ</th>
+ </tr>
+ <tr>
    <td><img width="500px" src="https://as2.ftcdn.net/jpg/02/05/31/03/1000_F_205310316_jJtSkFxu6VPitCkKD5ct319oKW2GNCsx.jpg" /></td>
-   <td><img width="400px" src="https://www.jst.co.uk/images/products/pa.jpg" /></td>
+   <td><img width="350px" src="https://www.jst.co.uk/images/products/pa.jpg" /></td>
  </tr>
 </table>
 
@@ -385,6 +408,10 @@ title: "一般教養としての電装"
 </ul>
 <table>
  <tr>
+  <th>試作基板組立</th>
+  <th>試作基板部品</th>
+ </tr>
+ <tr>
    <td><img width="500px" src="assets/original-pcb.jpg" /></td>
    <td><img width="500px" src="assets/test-pcb.jpg" /></td>
  </tr>
@@ -403,6 +430,10 @@ title: "一般教養としての電装"
  <li>作った人も机の上に放置しないでください🚫</li>
 </ul>
 <table>
+ <tr>
+  <th>ピトー管など</th>
+  <th>ラダー</th>
+ </tr>
  <tr>
    <td><img width="570px" src="assets/pitot.jpg" /></td>
    <td><img width="430px" src="assets/rudder.jpg" /></td>
