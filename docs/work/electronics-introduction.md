@@ -44,21 +44,19 @@ title: "一般教養としての電装"
 <h1>使っている道具 - 1</h1>
 <table align="center">
  <tr>
+   <td><img width="400px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
    <td>
      <h2 align="center">はんだごて</h2>
      <p align="center">⚠️やけどに注意🌡️</p>
+     <ul>
+       <li>300℃を超える高温🌡️</li>
+       <li>なかなか冷めません⚠️</li>
+       <li>「はんだ付け」に使います🔧</li>
+       <li>プラを溶かさないで🚫</li>
+     </ul>
    </td>
-   <td><img width="400px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
  </tr>
 </table>
-<div align="center">
-  <ul>
-    <li>300℃を超える高温🌡️</li>
-    <li>なかなか冷めません⚠️</li>
-    <li>「はんだ付け」に使います🔧</li>
-    <li>プラを溶かさないで🚫</li>
-  </ul>
-</div>
 
 <br>
 <br>
@@ -102,25 +100,22 @@ title: "一般教養としての電装"
 <br>
 
 <h3 align="center">🌡️熱くなる場所🌡️</h3>
-<table>
+<table align="center">
  <tr>
+  <td><img width="500px" src="https://www.goot.jp/storage/images/products/1764554219de75y0caw7jxhVxUZexpIl_l.jpeg" /></td>
   <td>
    <ul>
     <li>はんだごての<em><strong>金属部分全て</strong></em></li>
-    <li>はんだごてを置く<em><strong>こて台</strong></em> (右図)</li>
+    <li>はんだごてを置く<em><strong>こて台</strong></em></li>
    </ul>
-   <br>
-   <p align="center">
-    当然見た目には<br>わからないので注意⚠️
-   </p>
-   <p align="center">
-    熱くなっていることを<br><em><strong>常に疑ってください！</strong></em>
-   </p>
+   <h2 align="center">⇐ こて台</h2>
   </td>
-  <td><img width="500px" src="https://www.goot.jp/storage/images/products/1764554219de75y0caw7jxhVxUZexpIl_l.jpeg" /></td>
  </tr>
 </table>
-
+ <p align="center">
+    当然見た目にはわからないので注意⚠️
+    熱くなっていることを<em><strong>常に疑ってください！</strong></em>🌡️
+</p>
 
 <br>
 <br>
@@ -130,9 +125,11 @@ title: "一般教養としての電装"
 <h3 align="center">⚠️注意事項⚠️</h3>
 <p align="center">はんだごての使用に際して，<em><strong>以下のことを忘れないでください！</strong></em></p>
 <ul align="center">
-  <li>はんだごてを使っている人の周りをむやみに動き回らない</li>
-  <li>はんだごてを使うときは「高温であること」を周知する</li>
-</ul>
+<p align="center">
+ 📌 はんだごてを使っている人の周りをむやみに動き回らない
+ <br> 
+ 📌 はんだごてを使うときは「高温であること」を周知する
+</p>
 <br>
 
 ---
@@ -184,10 +181,11 @@ title: "一般教養としての電装"
 <br>
 <h3 align="center">⚠️注意事項⚠️</h3>
 <p align="center">ホットプレートの使用に際して，<em><strong>以下のことを忘れないでください！</strong></em></p>
-<ul align="center">
-  <li>リフロー作業中に振動を与えない（非常に小さな部品を扱うため）</li>
-  <li>ホットプレートを使うときは「高温であること」を周知する</li>
-</ul>
+<p align="center">
+ 📌 リフロー作業中に振動を与えない（非常に小さな部品を扱うため）
+ <br>
+ 📌 ホットプレートを使うときは「高温であること」を周知する
+</p>
 <br>
 
 ---
@@ -199,16 +197,12 @@ title: "一般教養としての電装"
 ---
 
 <h1>使っている道具 - 3</h1>
+<h2 align="center">ニッパー</h2>
+<p align="center">📌 電線を切断できます✂</p>
 <table align="center">
  <tr>
-   <td>
-     <h2 align="center">ニッパー</h2>
-     <ul>
-       <li>電線を<br>切断できます✂</li>
-     </ul>
-   </td>
-   <td><img width="300px" src="https://m.media-amazon.com/images/I/61Gs4QLclyL._AC_SL1500_.jpg" /></td>
-   <td><img width="300px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2Fd3EAAeSwgzFn9Nbh%2Fs-l500.jpg&f=1&nofb=1&ipt=1211b81f1b251f125c5a5f6eb63686a9316e6d8091fc7f65c14bfe4efd7c2554" /></td>
+   <td><img width="500px" src="https://m.media-amazon.com/images/I/61Gs4QLclyL._AC_SL1500_.jpg" /></td>
+   <td><img width="500px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ebayimg.com%2Fimages%2Fg%2Fd3EAAeSwgzFn9Nbh%2Fs-l500.jpg&f=1&nofb=1&ipt=1211b81f1b251f125c5a5f6eb63686a9316e6d8091fc7f65c14bfe4efd7c2554" /></td>
  </tr>
 </table>
 
@@ -221,18 +215,18 @@ title: "一般教養としての電装"
 ---
 
 <h1>使っている道具 - 4</h1>
+<h2 align="center">ラジオペンチ</h2>
+<p align="center">
+ 📌 六角ナットを回すなど，強く掴む用途に向きます💪
+ <br>
+ 📌 狭い場所でも使えます✅️
+ <br>
+ 📌 曲げる，切るなど多機能です✨️
+</p>
 <table align="center">
  <tr>
-   <td>
-     <h2 align="center">ラジオペンチ</h2>
-     <ul>
-       <li>強く掴むことができます💪</li>
-       <li>狭い場所でも使えます✅️</li>
-       <li>曲げる，切るなど多機能✨️</li>
-     </ul>
-   </td>
-   <td><img width="300px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F71xNRA%2BoT-L._AC_.jpg&f=1&nofb=1&ipt=64af0b2b1b39992de3340d47a894d7c88fa11e496afde88a9c286a9e86886224" /></td>
-   <td><img width="300px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjumbo-news.com%2Fwp-content%2Fuploads%2F2019%2F10%2F4952520032008.pt02.jpg&f=1&nofb=1&ipt=a346bde4c907207fb734c6fb9173212763b69f4ceff4ebb153114a114bd4f5af" /></td>
+   <td><img width="600px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F71xNRA%2BoT-L._AC_.jpg&f=1&nofb=1&ipt=64af0b2b1b39992de3340d47a894d7c88fa11e496afde88a9c286a9e86886224" /></td>
+   <td><img width="500px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjumbo-news.com%2Fwp-content%2Fuploads%2F2019%2F10%2F4952520032008.pt02.jpg&f=1&nofb=1&ipt=a346bde4c907207fb734c6fb9173212763b69f4ceff4ebb153114a114bd4f5af" /></td>
  </tr>
 </table>
 
@@ -245,16 +239,12 @@ title: "一般教養としての電装"
 ---
 
 <h1>使っている道具 - 5</h1>
+<h2 align="center">ワイヤーストリッパー</h2>
+<p align="center">📌 電線のビニールを楽に剥がせます✨️</p>
 <table align="center">
  <tr>
-   <td>
-     <h2 align="center">ワイヤーストリッパー</h2>
-     <ul>
-       <li>電線のビニールを<br>楽に剥がせます✨️</li>
-     </ul>
-   </td>
-   <td><img width="300px" src="https://www.vessel.co.jp/userfiles/handtools/3500E2.jpg" /></td>
-   <td><img width="300px" src="https://www.vessel.co.jp/userfiles/handtools/3500E_01.jpg" /></td>
+   <td><img width="500px" src="https://www.vessel.co.jp/userfiles/handtools/3500E2.jpg" /></td>
+   <td><img width="500px" src="https://www.vessel.co.jp/userfiles/handtools/3500E_01.jpg" /></td>
  </tr>
 </table>
 
@@ -270,18 +260,15 @@ title: "一般教養としての電装"
 <h1>使っている部品 - 1</h1>
 <h2 align="center">様々なセンサ</h2>
 <p align="center">正確なデータが取得できるように，<em><strong>高度なセンサ</strong></em> を使用しています．</p>
+<p align="center">
+ 📌 非常に高価なものがあります💰️
+ <br>
+ 📌 壊れやすいので，基本的に触れないでください🚫
+</p>
 <table align="center">
  <tr>
-   <td>
-     <h3 align="center">ポイント💡</h3>
-     <ul>
-       <li>高価なものがあります💰️</li>
-       <li>壊れやすいです⚠️</li>
-       <li>基本的に触れないで🚫</li>
-     </ul>
-   </td>
-   <td><img width="300px" src="https://sensirion.com/_next/image?url=https%3A%2F%2Fsensirion.com%2Fmedia%2Fportfolio%2Fproduct%2Fimage%2F8fa456ba-46f9-4114-bd09-0de157943a04.webp&w=3840&q=75" /></td>
-   <td><img width="300px" src="https://akizukidenshi.com/img/goods/L/129520.jpg" /></td>
+   <td><img width="500px" src="https://sensirion.com/_next/image?url=https%3A%2F%2Fsensirion.com%2Fmedia%2Fportfolio%2Fproduct%2Fimage%2F8fa456ba-46f9-4114-bd09-0de157943a04.webp&w=3840&q=75" /></td>
+   <td><img width="500px" src="https://akizukidenshi.com/img/goods/L/129520.jpg" /></td>
  </tr>
 </table>
 
@@ -297,22 +284,18 @@ title: "一般教養としての電装"
 <h1>使っている部品 - 2</h1>
 <h2 align="center">LiPoバッテリー</h2>
 <p align="center">
- ハイパワーなサーボモーターを駆動するために，<em><strong>高電圧・大電流が供給可能</strong></em> かつ<em><strong>小型・軽量な</strong></em><br>
+ ハイパワーなサーボモーターを駆動するために，高電圧・大電流が供給可能かつ小型・軽量な<br>
  <em><strong>リチウムポリマー(Li-Po)バッテリー</strong></em> を採用しています．
+</p>
+<p align="center">
+ 📌 落下・ショート(短絡)は厳禁です🚫
+ <br>
+ 📌 エネルギー密度が高いため，破損すると発火・炎上します🔥
 </p>
 <table align="center">
  <tr>
-   <td>
-     <h3 align="center">ポイント💡</h3>
-     <ul>
-       <li>エネルギー密度が高いです💪</li>
-       <li>衝撃に弱いです💥</li>
-       <li>ショート(短絡)は厳禁です⚡️</li>
-       <li>最悪，発火・炎上します🔥</li>
-     </ul>
-   </td>
-   <td><img width="300px" src="https://urgenexrc.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_0a20a367-5da3-4d1a-bf9a-f193aee1499d_2000x.jpg?v=1743492663" /></td>
-   <td><img width="300px" src="https://www.gforce-hobby.jp/images/products/G0996.jpg" /></td>
+   <td><img width="500px" src="https://urgenexrc.com/cdn/shop/files/74b96dbb2d19db9758ba306fc55ad040_0a20a367-5da3-4d1a-bf9a-f193aee1499d_2000x.jpg?v=1743492663" /></td>
+   <td><img width="500px" src="https://www.gforce-hobby.jp/images/products/G0996.jpg" /></td>
  </tr>
 </table>
 
@@ -346,27 +329,24 @@ title: "一般教養としての電装"
 ---
 
 <h1>電装班の製作物について</h1>
-<h2 align="center">オリジナル基板など</h2>
 <p align="center">
  <em><strong>非常にデリケート</strong></em> です⚠️ 
  <br>
  <em><strong>手の油分で動作しなくなる</strong></em> こともあります！
 </p>
+<p align="center">
+ 📌 製作者以外触れないでください🚫
+ <br>
+ 📌 基板を持つときは端を持ってください✅️
+ <br>
+ 📌 基板上の部品には触らないでください🚫
+</p>
 <table align="center">
  <tr>
-   <td>
-     <h3 align="center">ポイント💡</h3>
-     <ul>
-       <li>製作者以外触れないで<br>ください🚫</li>
-       <li>基板の端を持ってください✅️</li>
-       <li>基板上の部品には<br>触らないでください🚫</li>
-     </ul>
-   </td>
    <td><img width="300px" src="assets/original-pcb.jpg" /></td>
    <td><img width="300px" src="assets/test-pcb.jpg" /></td>
  </tr>
 </table>
-
 
 <br>
 <br>
@@ -376,17 +356,15 @@ title: "一般教養としての電装"
 <p align="center">
  <em><strong>破損しやすいものがあります</strong></em>⚠️ 
 </p>
+<p align="center">
+ 📌 丁寧に取り扱ってください✅️
+ <br>
+ 📌 作った人も机の上に放置しないでください🚫
+</p>
 <table align="center">
  <tr>
-   <td>
-     <h3 align="center">ポイント💡</h3>
-     <ul>
-       <li>丁寧に取り扱って<br>ください✅️</li>
-       <li>机の上に放置しない🚫</li>
-     </ul>
-   </td>
-   <td><img width="370px" src="assets/pitot.jpg" /></td>
-   <td><img width="230px" src="assets/rudder.jpg" /></td>
+   <td><img width="570px" src="assets/pitot.jpg" /></td>
+   <td><img width="430px" src="assets/rudder.jpg" /></td>
  </tr>
 </table>
 
