@@ -121,9 +121,10 @@ title: "一般教養としての電装"
    </ul>
    <br>
    <p align="center">
-    当然見た目にはわからないので注意⚠️
-    <br>
-    いつでも電源が入っていると思って扱ってください🌡️
+    当然見た目には<br>わからないので注意⚠️
+   </p>
+   <p align="center">
+    熱くなっていることを<br><em><strong>常に疑ってください！</strong></em>
    </p>
   </td>
   <td><img width="500px" src="https://www.goot.jp/storage/images/products/1764554219de75y0caw7jxhVxUZexpIl_l.jpeg" /></td>
