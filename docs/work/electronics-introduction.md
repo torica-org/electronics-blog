@@ -462,10 +462,9 @@ title: "一般教養としての電装"
 <br>
 <h1 align="center">最後に✒️</h1>
 <p align="center">
- この資料を通して，少しでも<em><strong>電装を理解してくれたなら，</strong></em><br>
- あわよくば<em><strong>興味を持ってくれたならHappy</strong></em> です☺️
+ <em><strong>最後までお付き合いいただきありがとう！</strong></em><br>
+ 少しでも電装を理解してくれたなら嬉しいです☺️
 </p>
-<br>
 <h2 align="center">
  安全な鳥科ライフを！✈
 </h2>
