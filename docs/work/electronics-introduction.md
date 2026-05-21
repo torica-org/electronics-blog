@@ -322,6 +322,64 @@ title: "一般教養としての電装"
 
 ---
 
+<h1>使っている部品 - 3</h1>
+<table>
+ <tr>
+   <td><img width="500px" src="https://kondo-robot.com/w/wp-content/uploads/03030_11.jpg" /></td>
+   <td>
+     <h2>サーボモータ</h2>
+   </td>
+ </tr>
+</table>
+<ul>
+ <li>高価です💰️</li>
+ <li>強力に垂直尾翼を駆動します⚙</li>
+</ul>
+
+<br>
+<br>
+<br>
+
+<h3>⚠️急な動作・逆起電力に注意⚠️</h3>
+<ul>
+ <li>動作中は翼に当たらないように離れてください✋️</li>
+ <li>とても強力なので，指を挟んだりしないでください⚠️</li>
+ <li>無理やり動かすと，逆起電力により破壊する可能性があります⚡️</li>
+</ul>
+<tr>
+<td><img width="400px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.com%2FzXUFkPaORpMAAAAM%2Fminayoecn-battery.gif&f=1&nofb=1&ipt=728602f1ce3f91075cdd4152ea22c85ece42f29675578f5c17071184d3f98988" /></td>
+<td><img width="600px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.makeagif.com%2Fmedia%2F4-25-2021%2FoZg1Ub.gif&f=1&nofb=1&ipt=b074928cc412a97dc9f891e35c0a7225e47097c8fb47521be74ef021774df508" /></td>
+</tr>
+
+<br>
+<br>
+<br>
+
+---
+
+<br>
+<br>
+<br>
+
+---
+
+<h1>使っている部品 - 1</h1>
+<h2>様々なセンサ</h2>
+<p>正確なデータが取得できるように，<em><strong>高度なセンサ</strong></em> を使用しています．</p>
+<ul>
+ <li>非常に高価なものがあります💰️</li>
+ <li>壊れやすいので，基本的に触れないでください🚫</li>
+</ul>
+<table>
+ <tr>
+   <td><img width="500px" src="https://sensirion.com/_next/image?url=https%3A%2F%2Fsensirion.com%2Fmedia%2Fportfolio%2Fproduct%2Fimage%2F8fa456ba-46f9-4114-bd09-0de157943a04.webp&w=3840&q=75" /></td>
+   <td><img width="500px" src="https://akizukidenshi.com/img/goods/L/129520.jpg" /></td>
+ </tr>
+</table>
+
+---
+
+
 <h1>電装班の製作物について</h1>
 <h2>オリジナル基板など</h2>
 <p>
