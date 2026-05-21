@@ -42,10 +42,10 @@ title: "一般教養としての電装"
 ---
 
 <h1>使っている道具 - 1</h1>
-<table>
+<table align="center">
  <tr>
-   <td><img width="400px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
-   <td>
+   <td align="right"><img width="400px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
+   <td align="left">
      <h2>はんだごて</h2>
      <p>⚠️やけどに注意🌡️</p>
      <ul>
