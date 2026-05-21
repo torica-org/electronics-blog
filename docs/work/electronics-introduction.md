@@ -42,7 +42,7 @@ title: "一般教養としての電装"
 ---
 
 <h1>使っている道具 - 1</h1>
-<table align="center">
+<table>
  <tr>
    <td><img width="400px" src="https://m.media-amazon.com/images/I/51NMVBInOcL._AC_SL1500_.jpg" /></td>
    <td>
@@ -100,7 +100,7 @@ title: "一般教養としての電装"
 <br>
 
 <h3 align="center">🌡️熱くなる場所🌡️</h3>
-<table align="center">
+<table>
  <tr>
   <td><img width="500px" src="https://www.goot.jp/storage/images/products/1764554219de75y0caw7jxhVxUZexpIl_l.jpeg" /></td>
   <td>
@@ -140,7 +140,7 @@ title: "一般教養としての電装"
 ---
 
 <h1>使っている道具 - 2</h1>
-<table align="center">
+<table>
  <tr>
    <td><img width="500px" src="https://www.zeusbtc.com/UploadFile/Product/2024092418071866.jpg" /></td>
    <td>
