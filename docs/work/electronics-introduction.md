@@ -253,6 +253,34 @@ title: "一般教養としての電装"
 
 ---
 
+<br>
+<br>
+<br>
+
+---
+
+<h1>使っている道具 - 6</h1>
+<h2>3Dプリンター</h2>
+<ul>
+ <li>3次元立体形状を生成します✨️</li>
+ <li>材料は<em><strong>フィラメント</strong></em> です⭕️</li>
+</ul>
+<table>
+ <tr>
+  <th>3Dプリンター</th>
+  <th>フィラメント</th>
+ </tr>
+ <tr>
+   <td><img width="400px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F3d.nice-cdn.com%2Fupload%2Fimage%2Fproduct%2Flarge%2Fdefault%2Fcreality-k1-1-pc-557981-en.png&f=1&nofb=1&ipt=36a041652a7214004b20808dc3f7a5e7f5cadeecde3902739b1efd27cfbe4148" /></td>
+   <td><img width="400px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F71gxVLnfJBL.jpg&f=1&nofb=1&ipt=f49ab8a35c1b3fdf1799299ffe7ca14d6d3e686bcec4639d1f17baf016b15332" /></td>
+ </tr>
+</table>
+<p>
+ フィラメントは非常に湿気を吸いやすいです！（印刷品質が低下します⚠️）
+ <em><strong>同じ部屋で湿度が上がるようなことをしないでください！</strong></em>
+</p>
+
+---
 
 <br>
 <br>
