@@ -35,8 +35,10 @@
 - [一般教養としての電装](work/electronics-introduction) 
 
 ## 電装班員の寝言
-- [「13日の金曜日」くん](negoto/「13日の金曜日」の寝言.md)
-- [「(greenniki)」くん](negoto/(greenniki)nonegoto.md)
-- [「kenno」くん](negoto/kennoの寝言.md)
-- [「翼班パパ」くん](negoto/yokuhanpapanonegoto.md)
-- [「キャノピーちゃん」さん](negoto/キャノピーちゃんの寝言.md)
+- [「13日の金曜日」くん](negoto/「13日の金曜日」の寝言)
+- [「(greenniki)」くん](negoto/(greenniki)nonegoto)
+- [「kenno」くん](negoto/kennoの寝言)
+- [「翼班パパ」くん](negoto/yokuhanpapanonegoto)
+- [「キャノピーちゃん」さん](negoto/キャノピーちゃんの寝言)
+- [「レッサーパンダ」さん](negoto/「レッサーパンダ」の寝言)
+- [「浪漫」さん](negoto/浪漫の寝言)
