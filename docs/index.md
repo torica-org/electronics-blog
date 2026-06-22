@@ -34,12 +34,21 @@
 ## 作業
 - [一般教養としての電装](work/electronics-introduction) 
 
+<details>
+  <summary>
+
 ## 電装班員の寝言
-- [「13日の金曜日」くん](negoto/「13日の金曜日」の寝言)
-- [「(greenniki)」くん](negoto/(greenniki)nonegoto)
-- [「kenno」くん](negoto/kennoの寝言)
-- [「翼班パパ」くん](negoto/yokuhanpapanonegoto)
-- [「キャノピーちゃん」さん](negoto/キャノピーちゃんの寝言)
-- [「レッサーパンダ」さん](negoto/「レッサーパンダ」の寝言)
-- [「浪漫」さん](negoto/浪漫の寝言)
-- [「神楽の人」さん](negoto/神楽の人の寝言.md)
+    
+  </summary>
+  <ul>
+    {% assign negoto_pages = site.pages | where_exp: "item", "item.path contains 'negoto/'" %}
+    {% for page in negoto_pages %}
+      {% comment} インデックスページ（index.mdなど）を除外する場合 {% endcomment %}
+      {% unless page.url == '/negoto/' or page.url contains 'index' %}
+        <li>
+          <a href="{{ page.url }}">{{ page.title | default: page.name }}</a>
+        </li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+</details>
