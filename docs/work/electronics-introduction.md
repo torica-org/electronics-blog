@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "一般教養としての電装"
+title: "[20260522] 一般教養としての電装"
 ---
 
 ---
 
 <br>
-<h1 align="center">一般教養としての電装</h1>
+<h1 align="center">[20260522] 一般教養としての電装</h1>
 <p align="center">26代電装班長　<a href="https://git.meganekinoko.com">00kenno</a></p>
 <p align="center">2026/05/22 全体MTG</p>
 <br>
