@@ -35,20 +35,28 @@
 - [一般教養としての電装](work/electronics-introduction) 
 
 <details>
-  <summary>
+<summary>
 
 ## 電装班員の寝言
     
-  </summary>
-  <ul>
-    {% assign negoto_pages = site.pages | where_exp: "item", "item.path contains 'negoto/'" %}
-    {% for page in negoto_pages %}
-      {% comment} インデックスページ（index.mdなど）を除外する場合 {% endcomment %}
-      {% unless page.url == '/negoto/' or page.url contains 'index' %}
+</summary>
+<ul>
+  {% for p in site.pages %}
+    {% if p.path contains 'negoto/' %}
+      {% comment %} インデックスページやフォルダ自体を除外 {% endcomment %}
+      {% unless p.path contains 'index.md' or p.path == 'negoto/' %}
         <li>
-          <a href="{{ page.url }}">{{ page.title | default: page.name }}</a>
+          <a href="{{ p.url | relative_url }}">
+            {% if p.title %}
+              {{ p.title }}
+            {% else %}
+              {% comment %} Front Matterにtitleがない場合はファイル名から生成 {% endcomment %}
+              {{ p.name | replace: ".md", "" | replace: "nonegoto", "の寝言" }}
+            {% endif %}
+          </a>
         </li>
       {% endunless %}
-    {% endfor %}
-  </ul>
+    {% endif %}
+  {% endfor %}
+</ul>
 </details>
