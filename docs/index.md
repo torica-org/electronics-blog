@@ -32,7 +32,27 @@
 - [RP2040小型化基板の製作とJLCPCBの魅力に迫る](commercials/TORICAberry_Pi_Bico)
 
 ## 作業
-- [一般教養としての電装](work/electronics-introduction) 
+</summary>
+<ul>
+  {% for p in site.pages %}
+    {% if p.path contains 'work/' %}
+      {% comment %} インデックスページやフォルダ自体を除外 {% endcomment %}
+      {% unless p.path contains 'index.md' or p.path == 'work/' %}
+        <li>
+          <a href="{{ p.url | relative_url }}">
+            {% if p.title %}
+              {{ p.title }}
+            {% else %}
+              {% comment %} Front Matterにtitleがない場合はファイル名から生成 {% endcomment %}
+              {{ p.name | replace: ".md", "" }}
+            {% endif %}
+          </a>
+        </li>
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+</ul>
+</details>
 
 ## 電装班員の寝言
 
