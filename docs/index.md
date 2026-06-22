@@ -29,10 +29,31 @@
 # 記事
 
 ## PR
-- [RP2040小型化基板の製作とJLCPCBの魅力に迫る](commercials/TORICAberry_Pi_Bico)
+
+<!-- 自動で`commercials/`ディレクトリを列挙します -->
+<ul>
+  {% for p in site.pages %}
+    {% if p.path contains 'commercials/' %}
+      {% comment %} インデックスページやフォルダ自体を除外 {% endcomment %}
+      {% unless p.path contains 'index.md' or p.path == 'commercials/' %}
+        <li>
+          <a href="{{ p.url | relative_url }}">
+            {% if p.title %}
+              {{ p.title }}
+            {% else %}
+              {% comment %} Front Matterにtitleがない場合はファイル名から生成 {% endcomment %}
+              {{ p.name | replace: ".md", "" }}
+            {% endif %}
+          </a>
+        </li>
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+</ul>
 
 ## 作業
-</summary>
+
+<!-- 自動で`work/`ディレクトリを列挙します -->
 <ul>
   {% for p in site.pages %}
     {% if p.path contains 'work/' %}
@@ -52,16 +73,10 @@
     {% endif %}
   {% endfor %}
 </ul>
-</details>
 
 ## 電装班員の寝言
 
-<details>
-<summary>
-
-寝言一覧
-    
-</summary>
+<!-- 自動で`negoto/`ディレクトリを列挙します -->
 <ul>
   {% for p in site.pages %}
     {% if p.path contains 'negoto/' %}
@@ -73,7 +88,7 @@
               {{ p.title }}
             {% else %}
               {% comment %} Front Matterにtitleがない場合はファイル名から生成 {% endcomment %}
-              {{ p.name | replace: ".md", "" | replace: "nonegoto", "の寝言" }}
+              {{ p.name | replace: ".md", "" }}
             {% endif %}
           </a>
         </li>
@@ -81,4 +96,3 @@
     {% endif %}
   {% endfor %}
 </ul>
-</details>
