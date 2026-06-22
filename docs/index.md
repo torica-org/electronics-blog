@@ -34,10 +34,12 @@
 ## 作業
 - [一般教養としての電装](work/electronics-introduction) 
 
+## 電装班員の寝言
+
 <details>
 <summary>
 
-## 電装班員の寝言
+寝言一覧
     
 </summary>
 <ul>
