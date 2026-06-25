@@ -24,39 +24,39 @@ date: 2026-06-22
 <pre class=mermaid style="background-color:white;">
 flowchart TD
     subgraph airdata["エアデータ電装部 (Airdata/Air)"]
-        12{{PA 12ピン}}
+        12{{"PA 12ピン"}}
     end
 
     subgraph lipo["LiPoバッテリー"]
-        XT{{XTコネクタ}}
+        XT{{"XTコネクタ"}}
     end
 
     subgraph rudder["ラダー電装部 (Rudder)"]
-        subgraph L[左ラダー]
-            loadcellL[ロードセル]
-            L3{{PA 3ピン}}
+        subgraph L["左ラダー"]
+            loadcellL["ロードセル"]
+            L3{{"PA 3ピン"}}
         end
-        subgraph R[右ラダー]
-            loadcellR[ロードセル]
-            R3{{PA 3ピン}}
-            R4{{PA 4ピン}}
+        subgraph R["右ラダー"]
+            loadcellR["ロードセル"]
+            R3{{"PA 3ピン"}}
+            R4{{"PA 4ピン"}}
         end
         R3 <==>|"ラダーLR接続ケーブル"| L3
     end
 
     subgraph under["機体下電装部 (Under)"]
-        under4{{PA 4ピン}}
+        under4{{"PA 4ピン"}}
     end
 
     subgraph fuselage["胴体桁電装部 (Fuselage)"]
-        fuselage4{{PA 4ピン}}
+        fuselage4{{"PA 4ピン"}}
     end
 
     subgraph servo["サーボモーター (Servo)"]
-        servo3{{専用 3ピン}}
+        servo3{{"専用 3ピン"}}
     end
 
-    12 <==>|LiPo接続ケーブル| XT
+    12 <==>|"LiPo接続ケーブル"| XT
     12 <===>|"Air - ラダー接続ケーブル"| R4
     12 <=====>|"Air - 機体下接続ケーブル"| under4
     12 <======>|"Air - 胴体桁接続ケーブル"| fuselage4
@@ -82,12 +82,14 @@ sequenceDiagram
     Note over elec: ケーブル整理
     elec -->> cockpit:
     Note over cockpit: カウル取付
+    cockpit -->> assem:
+    Note over assem: テール桁接合
+    assem -->> cockpit:
     Note over cockpit,elec: Airケーブル通す
     Note over cockpit,elec: サーボケーブル通す
     Note over cockpit,elec: 機体下ケーブル接続
     Note over elec: Air接合
     Note over elec: Airケーブル接続
     elec -->> assem:
-    Note over assem: テール桁接合
     Note over wing,assem: 主翼組み上げ
 </pre>
