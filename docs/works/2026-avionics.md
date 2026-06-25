@@ -28,17 +28,13 @@ flowchart TD
     end
 
     subgraph terminal["ターミナル基板"]
-        toLiPo{{"はんだ付け"}}
+        solder{{"はんだ付け"}}
         toUnder{{"PA 4ピン"}}
         toFuse{{"PA 4ピン"}}
         toRudder{{"PA 4ピン"}}
         toServo{{"PA 3ピン"}}
         
-        toLiPo ~~~ toUnder
-        toUnder ~~~ toFuse
-        toFuse ~~~ toServo
-        toServo ~~~~ toRudder
-
+        solder ~~~ toUnder ~~~ toFuse ~~~ toServo ~~~~ toRudder
     end
 
     subgraph lipo["LiPoバッテリー"]
@@ -70,9 +66,9 @@ flowchart TD
         servo3{{"専用 3ピン"}}
     end
 
-    Conn12 <==> terminal
+    Conn12 <==> solder
 
-    toLiPo <==>|"LiPo接続ケーブル"| XT
+    solder <==>|"LiPo接続ケーブル"| XT
     toRudder <==>|"Air - ラダー接続ケーブル"| R4
     toUnder <==>|"Air - 機体下接続ケーブル"| under4
     toFuse <==>|"Air - 胴体桁接続ケーブル"| fuselage4
