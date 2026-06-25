@@ -4,11 +4,6 @@ title: "2026 REWRITE搭載電装 - 取り扱い説明書"
 date: 2026-06-22
 ---
 
-<script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: true });
-</script>
-
 # 2026 REWRITE搭載電装 - 取り扱い説明書
 
 ## ⚠️注意事項⚠️
@@ -121,3 +116,8 @@ flowchart TD
 flowchart TD
     
 </pre>
+
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
