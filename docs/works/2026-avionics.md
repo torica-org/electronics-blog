@@ -65,7 +65,8 @@ flowchart TD
 </pre>
 
 ## アセンブリ - シーケンス図
-```mermaid
+
+<pre class=mermaid>
 sequenceDiagram
     actor member as 全体
     participant wing as 翼班
@@ -89,12 +90,4 @@ sequenceDiagram
     elec -->> assem:
     Note over assem: テール桁接合
     Note over wing,assem: 主翼組み上げ
-
-    par block 
-       elec --> assem: aib 
-    and
-        assem --> elec: send
-    end
-
-
-```
+</pre>
