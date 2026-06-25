@@ -21,7 +21,7 @@ date: 2026-06-22
 
 ## ケーブルの接続
 
-<pre class=mermaid>
+<pre class=mermaid color=white>
 flowchart TD
     subgraph airdata["エアデータ電装部 (Airdata/Air)"]
         12{{PA 12ピン}}
@@ -66,7 +66,7 @@ flowchart TD
 
 ## アセンブリ - シーケンス図
 
-<pre class=mermaid>
+<pre class=mermaid style="background-color:white;">
 sequenceDiagram
     actor member as 全体
     participant wing as 翼班
