@@ -102,6 +102,7 @@ sequenceDiagram
 
 ## デバッグフローチャート
 ### フライト前日(7/25)
+
 <pre class=mermaid style="background-color:white;">
 flowchart TD
     error["正常に動作しない"]
@@ -111,37 +112,37 @@ flowchart TD
 
     error --> servo?
 </pre>
+
 ### フライト当日(7/26)
+
 <pre class=mermaid style="background-color:white;">
 flowchart TD
     error["正常に動作しない"]
-    power?{{"電源が入るか？"}}
-    conn?{{"コネクタ接続は適切か？"}}
+    power{{"電源が入るか？"}}
+    conn{{"コネクタ接続は適切か？"}}
     connFix["コネクタ接続修正"]
-    lipo?{{"バッテリー電圧は正常か？"}}
+    lipo{{"バッテリー電圧は正常か？"}}
     lipoReplace["バッテリー交換"]
-    poli?{{"ポリスイッチが作動していないか？"}}
+    poli{{"ポリスイッチが作動していないか？"}}
     poliReplace["ケーブルごと交換"]
-    servo?{{"サーボが動作するか？"}}
-    log?{{"ログが取れるか？"}}
+    servo{{"サーボが動作するか？"}}
+    log{{"ログが取れるか？"}}
     burn["ソフト書き換え"]
     test["動作テスト"]
 
-    error --> conn?
-    conn? -->|-No-| connFix --> test
-    conn? --->|-Yes-| power?
+    error --> conn
+    conn -->|-No-| connFix --> test
+    %% 修正ポイント：ハイフンを2つ「-->」にする
+    conn -->|-Yes-| power
 
-    power? -->|-No-| lipo?
-    lipo? --->|-Yes-| poli?
-    poli? -->|-Yes-| poliReplace --> test
+    power -->|-No-| lipo
+    %% 修正ポイント：ハイフンを2つ「-->」にする
+    lipo -->|-Yes-| poli
+    poli -->|-Yes-| poliReplace --> test
 
-    
-    lipo? -->|-No-| lipoReplace --> test 
-
-    power? --->|-Yes-| log?
-    log? --> servo?
-    servo? -->|-Yes-| burn
+    lipo -->|-No-| lipoReplace --> test 
 </pre>
+
 
 <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
