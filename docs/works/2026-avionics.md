@@ -34,7 +34,7 @@ flowchart TD
         toRudder{{"PA 4ピン"}}
         toServo{{"PA 3ピン"}}
         
-        solder ~~~ toUnder ~~~ toFuse ~~~ toServo ~~~~ toRudder
+        solder ~~~ toUnder ~~~ toFuse ~~~ toServo ~~~ toRudder
     end
 
     subgraph lipo["LiPoバッテリー"]
@@ -103,4 +103,21 @@ sequenceDiagram
     Note over elec: Airケーブル接続
     elec -->> assem:
     Note over wing,assem: 主翼組み上げ
+</pre>
+
+## デバッグフローチャート
+### フライト前日(7/25)
+<pre class=mermaid style="background-color:white;">
+flowchart TD
+    error["正常に動作しない"]
+    noPower["電源が入らない"]
+    servo?["サーボが動作するか？"]
+    noLog["ログが取れない"]
+
+    error --> servo?
+</pre>
+### フライト当日(7/26)
+<pre class=mermaid style="background-color:white;">
+flowchart TD
+    
 </pre>
