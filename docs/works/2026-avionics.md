@@ -16,7 +16,7 @@ date: 2026-06-22
 
 ## ケーブルの接続
 
-<pre class=mermaid style="background-color:white;">
+<pre class="mermaid" style="background-color:white;">
 flowchart TD
     subgraph airdata["エアデータ電装部 (Airdata/Air)"]
         Conn12{{"PA 12ピン"}}
@@ -46,7 +46,7 @@ flowchart TD
             R3{{"PA 3ピン"}}
             R4{{"PA 4ピン"}}
         end
-        R3 <== "ラダーLR接続ケーブル" ==> L3
+        R3 == "ラダーLR接続ケーブル" <==> L3
     end
 
     subgraph under["機体下電装部 (Under)"]
@@ -63,16 +63,16 @@ flowchart TD
 
     Conn12 <==> solder
 
-    solder <== "LiPo接続ケーブル" ==> XT
-    toRudder <== "Air - ラダー接続ケーブル" ==> R4
-    toUnder <== "Air - 機体下接続ケーブル" ==> under4
-    toFuse <== "Air - 胴体桁接続ケーブル" ==> fuselage4
-    toServo <=== "Air - サーボ接続ケーブル" ===> servo3
+    solder == "LiPo接続ケーブル" <==> XT
+    toRudder == "Air - ラダー接続ケーブル" <==> R4
+    toUnder == "Air - 機体下接続ケーブル" <==> under4
+    toFuse == "Air - 胴体桁接続ケーブル" <==> fuselage4
+    toServo === "Air - サーボ接続ケーブル" <===> servo3
 </pre>
 
 ## アセンブリ - シーケンス図
 
-<pre class=mermaid style="background-color:white;">
+<pre class="mermaid" style="background-color:white;">
 sequenceDiagram
     actor member as 全体
     participant wing as 翼班
@@ -103,7 +103,7 @@ sequenceDiagram
 ## デバッグフローチャート
 ### フライト前日(7/25)
 
-<pre class=mermaid style="background-color:white;">
+<pre class="mermaid" style="background-color:white;">
 flowchart TD
     error["正常に動作しない"]
     noPower["電源が入らない"]
@@ -115,7 +115,7 @@ flowchart TD
 
 ### フライト当日(7/26)
 
-<pre class=mermaid style="background-color:white;">
+<pre class="mermaid" style="background-color:white;">
 flowchart TD
     error["正常に動作しない"]
     power{{"電源が入るか？"}}
@@ -144,5 +144,6 @@ flowchart TD
 
 <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({ startOnLoad: true });
+    let config = { startOnLoad: true, htmlLabels: true, flowchart: { useMaxWidth: false } };
+    mermaid.initialize(config);
 </script>
