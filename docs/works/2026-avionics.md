@@ -46,7 +46,7 @@ flowchart TD
             R3{{"PA 3ピン"}}
             R4{{"PA 4ピン"}}
         end
-        R3 <==>|"ラダーLR接続ケーブル"| L3
+        R3 <== "ラダーLR接続ケーブル" ==> L3
     end
 
     subgraph under["機体下電装部 (Under)"]
@@ -63,11 +63,11 @@ flowchart TD
 
     Conn12 <==> solder
 
-    solder <==>|"LiPo接続ケーブル"| XT
-    toRudder <==>|"Air - ラダー接続ケーブル"| R4
-    toUnder <==>|"Air - 機体下接続ケーブル"| under4
-    toFuse <==>|"Air - 胴体桁接続ケーブル"| fuselage4
-    toServo <===>|"Air - サーボ接続ケーブル"| servo3
+    solder <== "LiPo接続ケーブル" ==> XT
+    toRudder <== "Air - ラダー接続ケーブル" ==> R4
+    toUnder <== "Air - 機体下接続ケーブル" ==> under4
+    toFuse <== "Air - 胴体桁接続ケーブル" ==> fuselage4
+    toServo <=== "Air - サーボ接続ケーブル" ===> servo3
 </pre>
 
 ## アセンブリ - シーケンス図
@@ -131,16 +131,14 @@ flowchart TD
     test["動作テスト"]
 
     error --> conn
-    conn -->|-No-| connFix --> test
-    %% 修正ポイント：ハイフンを2つ「-->」にする
-    conn -->|-Yes-| power
+    conn -- "-No-" --> connFix --> test
+    conn -- "-Yes-" --> power
 
-    power -->|-No-| lipo
-    %% 修正ポイント：ハイフンを2つ「-->」にする
-    lipo -->|-Yes-| poli
-    poli -->|-Yes-| poliReplace --> test
+    power -- "-No-" --> lipo
+    lipo -- "-Yes-" --> poli
+    poli -- "-Yes-" --> poliReplace --> test
 
-    lipo -->|-No-| lipoReplace --> test 
+    lipo -- "-No-" --> lipoReplace --> test 
 </pre>
 
 
