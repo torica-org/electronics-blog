@@ -4,6 +4,11 @@ title: "2026 REWRITE搭載電装 - 取り扱い説明書"
 date: 2026-06-22
 ---
 
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+
 # 2026 REWRITE搭載電装 - 取り扱い説明書
 
 ## ⚠️注意事項⚠️
@@ -15,7 +20,8 @@ date: 2026-06-22
     - 異常じゃなければ一安心🥰
 
 ## ケーブルの接続
-```mermaid
+
+<pre class=mermaid>
 flowchart TD
     subgraph airdata["エアデータ電装部 (Airdata/Air)"]
         12{{PA 12ピン}}
@@ -56,7 +62,7 @@ flowchart TD
     12 <======>|"Air - 胴体桁接続ケーブル"| fuselage4
     12 <=======>|"Air - サーボ接続ケーブル"| servo3
 
-```
+</pre>
 
 ## アセンブリ - シーケンス図
 ```mermaid
