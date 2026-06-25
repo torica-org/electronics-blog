@@ -114,7 +114,33 @@ flowchart TD
 ### フライト当日(7/26)
 <pre class=mermaid style="background-color:white;">
 flowchart TD
+    error["正常に動作しない"]
+    power?{{"電源が入るか？"}}
+    conn?{{"コネクタ接続は適切か？"}}
+    connFix["コネクタ接続修正"]
+    lipo?{{"バッテリー電圧は正常か？"}}
+    lipoReplace["バッテリー交換"]
+    poli?{{"ポリスイッチが作動していないか？"}}
+    poliReplace["ケーブルごと交換"]
+    servo?{{"サーボが動作するか？"}}
+    log?{{"ログが取れるか？"}}
+    burn["ソフト書き換え"]
+    test["動作テスト"]
+
+    error --> conn?
+    conn? -->|-No-| connFix --> test
+    conn? --->|-Yes-| power?
+
+    power? -->|-No-| lipo?
+    lipo? --->|-Yes-| poli?
+    poli? -->|-Yes-| poliReplace --> test
+
     
+    lipo? -->|-No-| lipoReplace --> test 
+
+    power? --->|-Yes-| log?
+    log? --> servo?
+    servo? -->|-Yes-| burn
 </pre>
 
 <script type="module">
