@@ -1,0 +1,25 @@
+<ul>
+  {% assign pages_list = "" | split: "," %}
+  {% for p in site.pages %}
+    {% if p.path contains include.dir %}
+      {% unless p.path contains 'index.md' or p.path == include.dir %}
+        {% assign pages_list = pages_list | push: p %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign sorted_list = pages_list | sort: "date" | reverse %}
+
+  {% for p in sorted_list %}
+    <li>
+      {% if p.date %}
+        [{{ p.date | date: "%Y-%m-%d" }}]
+      {% else %}
+        [日付未設定]
+      {% endif %}
+      <a href="{{ p.url | relative_url }}">
+        {{ p.title | default: "[タイトル未設定]" }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
