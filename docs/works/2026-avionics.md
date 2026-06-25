@@ -24,7 +24,7 @@ date: 2026-06-22
 <pre class=mermaid style="background-color:white;">
 flowchart TD
     subgraph airdata["エアデータ電装部 (Airdata/Air)"]
-        12{{"PA 12ピン"}}
+        Conn12{{"PA 12ピン"}}
     end
 
     subgraph lipo["LiPoバッテリー"]
@@ -56,12 +56,11 @@ flowchart TD
         servo3{{"専用 3ピン"}}
     end
 
-    12 <==>|"LiPo接続ケーブル"| XT
-    12 <===>|"Air - ラダー接続ケーブル"| R4
-    12 <=====>|"Air - 機体下接続ケーブル"| under4
-    12 <======>|"Air - 胴体桁接続ケーブル"| fuselage4
-    12 <=======>|"Air - サーボ接続ケーブル"| servo3
-
+    Conn12 <==>|"LiPo接続ケーブル"| XT
+    Conn12 <===>|"Air - ラダー接続ケーブル"| R4
+    Conn12 <=====>|"Air - 機体下接続ケーブル"| under4
+    Conn12 <======>|"Air - 胴体桁接続ケーブル"| fuselage4
+    Conn12 <=======>|"Air - サーボ接続ケーブル"| servo3
 </pre>
 
 ## アセンブリ - シーケンス図
