@@ -27,6 +27,20 @@ flowchart TD
         Conn12{{"PA 12ピン"}}
     end
 
+    subgraph terminal["ターミナル基板"]
+        toLiPo{{"はんだ付け"}}
+        toUnder{{"PA 4ピン"}}
+        toFuse{{"PA 4ピン"}}
+        toRudder{{"PA 4ピン"}}
+        toServo{{"PA 3ピン"}}
+        
+        toLiPo ~~~ toUnder
+        toUnder ~~~ toFuse
+        toFuse ~~~ toServo
+        toServo ~~~~ toRudder
+
+    end
+
     subgraph lipo["LiPoバッテリー"]
         XT{{"XTコネクタ"}}
     end
@@ -56,11 +70,13 @@ flowchart TD
         servo3{{"専用 3ピン"}}
     end
 
-    Conn12 <==>|"LiPo接続ケーブル"| XT
-    Conn12 <===>|"Air - ラダー接続ケーブル"| R4
-    Conn12 <=====>|"Air - 機体下接続ケーブル"| under4
-    Conn12 <======>|"Air - 胴体桁接続ケーブル"| fuselage4
-    Conn12 <=======>|"Air - サーボ接続ケーブル"| servo3
+    Conn12 <==> terminal
+
+    toLiPo <==>|"LiPo接続ケーブル"| XT
+    toRudder <==>|"Air - ラダー接続ケーブル"| R4
+    toUnder <==>|"Air - 機体下接続ケーブル"| under4
+    toFuse <==>|"Air - 胴体桁接続ケーブル"| fuselage4
+    toServo <===>|"Air - サーボ接続ケーブル"| servo3
 </pre>
 
 ## アセンブリ - シーケンス図
