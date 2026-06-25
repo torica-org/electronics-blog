@@ -21,7 +21,7 @@ date: 2026-06-22
 
 ## ケーブルの接続
 
-<pre class=mermaid color=white>
+<pre class=mermaid style="background-color:white;">
 flowchart TD
     subgraph airdata["エアデータ電装部 (Airdata/Air)"]
         12{{PA 12ピン}}
