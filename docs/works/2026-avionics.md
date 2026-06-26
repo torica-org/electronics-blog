@@ -68,7 +68,7 @@ flowchart TD
     toRudder == "Air - ラダー接続ケーブル" <==> R4
     toUnder == "Air - 機体下接続ケーブル" <==> under4
     toFuse == "Air - 胴体桁接続ケーブル" <==> fuselage4
-    toServo === "Air - サーボ接続ケーブル" <===> servo3
+    toServo == "Air - サーボ接続ケーブル" <==> servo3
 </pre>
 {% endraw %}
 
@@ -105,54 +105,72 @@ sequenceDiagram
 {% endraw %}
 
 ## デバッグフローチャート
-### フライト前日(7/25)
 
 {% raw %}
 <pre class="mermaid" style="background-color:white;">
 flowchart TD
-    error["正常に動作しない"]
-    noPower["電源が入らない"]
-    servo?["サーボが動作するか？"]
-    noLog["ログが取れない"]
+    error(("正常に動作しない"))
+    power{"電源が入る？"}
+    conn{"コネクタ接続は<br>適切？"}
+    connFix(("コネクタ接続修正"))
 
-    error --> servo?
-</pre>
-{% endraw %}
+    lipo{"バッテリー電圧は<br>正常？"}
+    lipoReplace(("バッテリー交換"))
 
-### フライト当日(7/26)
+    poli{"ポリスイッチが<br>作動した？"}
+    cableBreak{"ケーブルが<br>断線？"}
+    cableReplace(("ケーブル交換"))
 
-{% raw %}
-<pre class="mermaid" style="background-color:white;">
-flowchart TD
-    error["正常に動作しない"]
-    power{{"電源が入るか？"}}
-    conn{{"コネクタ接続は適切か？"}}
-    connFix["コネクタ接続修正"]
-    lipo{{"バッテリー電圧は正常か？"}}
-    lipoReplace["バッテリー交換"]
-    poli{{"ポリスイッチが作動していないか？"}}
-    poliReplace["ケーブルごと交換"]
-    servo{{"サーボが動作するか？"}}
-    log{{"ログが取れるか？"}}
-    burn["ソフト書き換え"]
-    test["動作テスト"]
+
+    servo{"サーボは<br>動作する？"}
+
+    log{"フライトロガー<br>機能維持？"}
+
+
+
+    subgraph theDayBefore["📅前日📅"]
+        debugServo1[["デバッグ<br>（ソフト書換を含む⚡️）"]]
+        debugLogger[["デバッグ<br>（ソフト書換を含む⚡️）"]]
+    end
+
+    subgraph thatDay["📅当日📅"]
+        debugServo2[["デバッグ<br>（ソフト書換を含む⚡️）"]]
+        noSoft[["デバッグ<br>（ソフト書換なし❌️）"]]
+        morning(["⌛️フライト当日朝⌛️"])
+        dock(["⌛️桟橋到達⌛️"])
+        platform(["⌛️プラホ到達⌛️"])
+        giveUp(("デバッグを終了<br>最低限動作"))
+        lock(("ニュートラル<br>ロック"))
+    end
 
     error --> conn
-    conn -- "-No-" --> connFix --> test
-    conn -- "-Yes-" --> power
+    conn -- "❌️ No ❌️" --> connFix
+    conn -- "✅️ Yes ✅️" ---> power
 
-    power -- "-No-" --> lipo
-    lipo -- "-Yes-" --> poli
-    poli -- "-Yes-" --> poliReplace --> test
+    power -- "❌️ No ❌️" --> lipo
+    lipo -- "✅️ Yes ✅️" ---> poli
+    poli -- "✅️ Yes ✅️" ---> cableReplace
+    poli -- "❌️ No ❌️" --> cableBreak 
+    cableBreak -- "✅️ Yes ✅️" --> cableReplace
 
-    lipo -- "-No-" --> lipoReplace --> test 
+    lipo -- "❌️ No ❌️" --> lipoReplace
+    
+    power -- "✅️ Yes ✅️" --> servo
+
+    servo -- "❌️ No ❌️" --> debugServo1 --> debugServo2 --> platform --> lock
+    servo -- "✅️ Yes ✅️" ---> log
+
+    log -- "❌️ No ❌️" --> debugLogger --> morning --> noSoft --> dock --> giveUp
+
 </pre>
 {% endraw %}
 
 {% raw %}
 <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-    let config = { startOnLoad: true, htmlLabels: true, flowchart: { useMaxWidth: false } };
+    let config = { startOnLoad: true, htmlLabels: true };
     mermaid.initialize(config);
 </script>
 {% endraw %}
+
+
