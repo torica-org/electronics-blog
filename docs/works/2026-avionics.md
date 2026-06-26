@@ -15,6 +15,7 @@ date: 2026-06-22
     - 異常じゃなければ一安心🥰
 
 ## ケーブルの接続
+- 
 
 {% raw %}
 <pre class="mermaid" style="background-color:white;">
@@ -73,17 +74,19 @@ flowchart TD
 {% endraw %}
 
 ## アセンブリ - シーケンス図
+- 変更される可能性有り．
+- 正確に，かつ速やかに動作させられる状態にもっていくこと．
+- カウル，翼，桁など，電装班では馴染みの少ない製作物に触れるため，十二分に注意すること．
 
 {% raw %}
 <pre class="mermaid" style="background-color:white;">
 sequenceDiagram
-    actor member as 全体
+    <!-- actor member as 全体 -->
     participant wing as 翼班
     participant assem as 接合班
     participant cockpit as コクピ班
     participant elec as 電装班
 
-    Note over member,elec: 組み上げ開始
     Note over assem: T字準備
     assem -->> cockpit:
     Note over cockpit: フレーム接合
@@ -105,6 +108,9 @@ sequenceDiagram
 {% endraw %}
 
 ## デバッグフローチャート
+- 重大なエラーが発生しても，パイロットの安全を重視し***サーボモーターは動作させられるよう最大限努力する．***
+- 本番当日は，基本的にマイコンに***ソフトウェアを書き込まない．***
+- 本番直前では，フライトロガーの動作について***「諦める」***可能性有り．
 
 {% raw %}
 <pre class="mermaid" style="background-color:white;">
