@@ -16,6 +16,7 @@ date: 2026-06-22
 
 ## ケーブルの接続
 
+{% raw %}
 <pre class="mermaid" style="background-color:white;">
 flowchart TD
     subgraph airdata["エアデータ電装部 (Airdata/Air)"]
@@ -69,9 +70,11 @@ flowchart TD
     toFuse == "Air - 胴体桁接続ケーブル" <==> fuselage4
     toServo === "Air - サーボ接続ケーブル" <===> servo3
 </pre>
+{% endraw %}
 
 ## アセンブリ - シーケンス図
 
+{% raw %}
 <pre class="mermaid" style="background-color:white;">
 sequenceDiagram
     actor member as 全体
@@ -99,10 +102,12 @@ sequenceDiagram
     elec -->> assem:
     Note over wing,assem: 主翼組み上げ
 </pre>
+{% endraw %}
 
 ## デバッグフローチャート
 ### フライト前日(7/25)
 
+{% raw %}
 <pre class="mermaid" style="background-color:white;">
 flowchart TD
     error["正常に動作しない"]
@@ -112,9 +117,11 @@ flowchart TD
 
     error --> servo?
 </pre>
+{% endraw %}
 
 ### フライト当日(7/26)
 
+{% raw %}
 <pre class="mermaid" style="background-color:white;">
 flowchart TD
     error["正常に動作しない"]
@@ -140,10 +147,12 @@ flowchart TD
 
     lipo -- "-No-" --> lipoReplace --> test 
 </pre>
+{% endraw %}
 
-
+{% raw %}
 <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
     let config = { startOnLoad: true, htmlLabels: true, flowchart: { useMaxWidth: false } };
     mermaid.initialize(config);
 </script>
+{% endraw %}
