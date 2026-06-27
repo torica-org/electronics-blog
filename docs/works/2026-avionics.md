@@ -134,9 +134,9 @@ sequenceDiagram
 <br>
 
 ## デバッグフローチャート
-- 重大なエラーが発生しても，パイロットの安全を重視し***サーボモーターは動作させられるよう最大限努力する．***
 - フライト当日は，基本的にマイコンに***ソフトウェアを書き込まない***（状況が悪化する可能性があるため）．
 - フライト直前では，フライトロガーの動作について***「諦める」***可能性有り．
+- 重大なエラーが発生しても，パイロットの安全を重視し***サーボモーターは動作させられるよう最大限努力する．***
 
 {% raw %}
 <pre class="mermaid" style="background-color:white;">
@@ -203,23 +203,36 @@ flowchart TD
 
 <br>
 
-## 電源投入手順
+## 電源投入／遮断手順
 以下の事項が要求される．
 - フライトまでに，5分以上の事前運転をする．
   - 9軸センサーは地磁気を利用してヨー角を取得するため，キャリブレーション（センサーの校正）が必要．
   - 自動でおこなわれるが，時間がかかる．
 - 垂直尾翼を取り付ける際は，サーボモーターの破損を防ぐためケーブルを抜く．
-- 垂直尾翼が取り付けられたまま運用する際は，風に抵抗するためにサーボモーターを接続して駆動させておく．
+- 垂直尾翼が取り付けられたまま運用する際は，風により回転するのを防ぐためにサーボモーターにケーブルを接続して駆動させておく．
 
 {% raw %}
 <pre class="mermaid" style="background-color:white;">
 flowchart TD
-    servoNC["サーボケーブル<br>抜く"]
-    powerOn(["電源投入"])
-    servoConn["サーボケーブル<br>接続"]
+    servoNCCheck["サーボケーブル<br>抜線確認"]
+    powerOn(("電源投入"))
+    servoCall["周囲に呼びかけ"]
+    servoSafe["可動範囲の安全と<br>自身の頭の位置を確認"]
+    servoConn(("サーボケーブル<br>接続"))
 
-    servoNC --> powerOn
-    powerOn --> servoConn
+    subgraph on["電源投入"]
+        servoNCCheck --> powerOn
+        powerOn -- "駆動可能な場合" --> servoCall --> servoSafe --> servoConn
+    end
+
+    powerOff(("電源遮断"))
+    servoNC(("サーボケーブル<br>抜線"))
+    
+    subgraph off["電源遮断"]
+        powerOff -- "サーボ駆動中だったなら" --> servoNC
+    end
+
+    on ~~~ off
 </pre>
 {% endraw %}
 
