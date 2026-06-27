@@ -213,7 +213,7 @@ flowchart TD
 
 {% raw %}
 <pre class="mermaid" style="background-color:white;">
-flowchart TD
+flowchart LR
     servoNCCheck["サーボケーブル<br>抜線確認"]
     powerOn(("電源投入"))
     servoCall["周囲に呼びかけ"]
