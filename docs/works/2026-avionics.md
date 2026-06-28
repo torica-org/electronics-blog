@@ -246,25 +246,34 @@ flowchart LR
 {% raw %}
 <pre class="mermaid" style="background-color:white;">
 sequenceDiagram
-    actor OA as O.A.さん
-    actor YM as Y.M.くん
-    actor YA as Y.A.くん
+    actor aya
+    actor mss
+    actor atu
     participant wing as 翼周辺
     participant tail as テール周辺
 
-    Note over OA,tail: 桟橋到達
+    Note over aya,tail: 桟橋到達
     alt 風速 ~3m/sの場合
         Note over tail: 垂直尾翼接合
-        tail -->> YM:
-        Note over YM: 電源投入
-        Note over YA: サーボ接続
+        tail -->> mss:
+        Note over mss: 電源投入
+        mss -->> atu:
+        Note over atu: サーボ接続
     else 風速 3m/s~の（または運用上危険な）場合
-        Note over YM: 電源投入
+        Note over mss: 電源投入
     end
-    Note over OA,tail: 桟橋運用
-    Note over OA,tail: 機体プラホ設置完了
-    Note over YM: 電源スイッチ，ログを確認
-    Note over YA: コクピ内に潜る
+    Note over aya,tail: 桟橋運用
+    Note over aya,tail: 機体プラホ設置完了
+    opt サーボ未接続なら
+        Note over atu: サーボ接続
+    end
+    Note over mss: 電源スイッチ，ログを確認
+    mss -->> aya:
+    Note over aya: カーボン（ドーサルフィン）取り付け
+    Note over atu: コクピ内に潜る
+    tail ->> mss: ニュートラル確認
+    mss ->> atu: トリム指示
+    Note over atu: トリム調整
 </pre>
 {% endraw %}
 
