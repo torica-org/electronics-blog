@@ -241,7 +241,6 @@ flowchart LR
 ---
 
 <br>
-
 ## フライト直前の動き
 
 {% raw %}
@@ -254,15 +253,18 @@ sequenceDiagram
     participant tail as テール周辺
 
     Note over OA,tail: 桟橋到達
-    alt is (風速)~3m/s
+    alt 風速 ~3m/sの場合
         Note over tail: 垂直尾翼接合
         tail -->> YM:
         Note over YM: 電源投入
         Note over YA: サーボ接続
-    else is (風速)3m/s~
+    else 風速 3m/s~の（または運用上危険な）場合
         Note over YM: 電源投入
+    end
     Note over OA,tail: 桟橋運用
     Note over OA,tail: 機体プラホ設置完了
+    Note over YM: 電源スイッチ，ログを確認
+    Note over YA: コクピ内に潜る
 </pre>
 {% endraw %}
 
