@@ -253,6 +253,14 @@ sequenceDiagram
     participant wing as 翼周辺
     participant tail as テール周辺
 
+    Note over OA,tail: 桟橋到達
+    alt is "風速 ~3m/s"
+        Note over tail: 垂直尾翼接合
+        tail -->> YM:
+        Note over YM: 電源投入
+        Note over YA: サーボ接続
+    else is "風速 3m/s~"
+        Note over YM: 電源投入
     Note over OA,tail: 機体プラホ設置完了
 </pre>
 {% endraw %}
