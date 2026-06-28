@@ -214,7 +214,7 @@ flowchart TD
 {% raw %}
 <pre class="mermaid" style="background-color:white;">
 flowchart LR
-    servoNCCheck["サーボケーブル<br>抜線確認"]
+    servoNCCheck["サーボケーブル<br>抜け確認"]
     powerOn(("メインスイッチ<br><strong>ON</strong>"))
     servoCall["周囲に呼びかけ"]
     servoSafe["可動範囲の安全と<br>自身の頭の位置を確認"]
@@ -226,7 +226,7 @@ flowchart LR
     end
 
     powerOff(("メインスイッチ<br><strong>OFF</strong>"))
-    servoNC(("サーボケーブル<br>抜線"))
+    servoNC(("サーボケーブル<br>抜く"))
     
     subgraph off["⛔️電源遮断⛔️"]
         powerOff -- "サーボ駆動中だったなら" --> servoNC
@@ -254,13 +254,14 @@ sequenceDiagram
     participant tail as テール周辺
 
     Note over OA,tail: 桟橋到達
-    alt is "風速 ~3m/s"
+    alt is (風速)~3m/s
         Note over tail: 垂直尾翼接合
         tail -->> YM:
         Note over YM: 電源投入
         Note over YA: サーボ接続
-    else is "風速 3m/s~"
+    else is (風速)3m/s~
         Note over YM: 電源投入
+    Note over OA,tail: 桟橋運用
     Note over OA,tail: 機体プラホ設置完了
 </pre>
 {% endraw %}
