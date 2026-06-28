@@ -170,7 +170,7 @@ flowchart TD
         noSoft[["デバッグ<br>（ソフト書換なし❌️）"]]
         morning(["⌛️フライト当日朝⌛️"])
         dock(["⌛️桟橋到達⌛️"])
-        platform(["⌛️プラホ到達⌛️"])
+        dockServo(["⌛️桟橋到達⌛️"])
         giveUp(("デバッグを終了<br>最低限動作"))
         lock(("ニュートラル<br>ロック"))
     end
@@ -189,7 +189,7 @@ flowchart TD
     
     power -- "✅️ Yes ✅️" --> servo
 
-    servo -- "❌️ No ❌️" --> debugServo1 --> debugServo2 --> platform --> lock
+    servo -- "❌️ No ❌️" --> debugServo1 --> debugServo2 --> dockServo--> lock
     servo -- "✅️ Yes ✅️" ---> log
 
     log -- "❌️ No ❌️" --> debugLogger --> morning --> noSoft --> dock --> giveUp
@@ -215,24 +215,45 @@ flowchart TD
 <pre class="mermaid" style="background-color:white;">
 flowchart LR
     servoNCCheck["サーボケーブル<br>抜線確認"]
-    powerOn(("電源投入"))
+    powerOn(("メインスイッチ<br><strong>ON</strong>"))
     servoCall["周囲に呼びかけ"]
     servoSafe["可動範囲の安全と<br>自身の頭の位置を確認"]
     servoConn(("サーボケーブル<br>接続"))
 
-    subgraph on["電源投入"]
+    subgraph on["⚡️電源投入⚡️"]
         servoNCCheck --> powerOn
         powerOn -- "駆動可能な場合" --> servoCall --> servoSafe --> servoConn
     end
 
-    powerOff(("電源遮断"))
+    powerOff(("メインスイッチ<br><strong>OFF</strong>"))
     servoNC(("サーボケーブル<br>抜線"))
     
-    subgraph off["電源遮断"]
+    subgraph off["⛔️電源遮断⛔️"]
         powerOff -- "サーボ駆動中だったなら" --> servoNC
     end
 
     on ~~~ off
+</pre>
+{% endraw %}
+
+<br>
+
+---
+
+<br>
+
+## フライト直前の動き
+
+{% raw %}
+<pre class="mermaid" style="background-color:white;">
+sequenceDiagram
+    actor OA as O.A.さん
+    actor YM as Y.M.くん
+    actor YA as Y.A.くん
+    participant wing as 翼周辺
+    participant tail as テール周辺
+
+    Note over OA,tail: 機体プラホ設置完了
 </pre>
 {% endraw %}
 
