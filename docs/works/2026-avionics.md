@@ -27,7 +27,8 @@ date: 2026-06-22
 
 <br>
 
-## 簡単な仕組み
+## 簡単な仕組み（➔詳細は[こちら](https://github.com/torica-org/electronics-docs/tree/main/2026-REWRITE)）
+
 ### メインの機能
 - フライトログ（フライト中の様々な物理量）の測定・記録をおこなう．
     - センサーのある各電装部からエアデータ電装部に測定した値を送る．
@@ -35,10 +36,11 @@ date: 2026-06-22
     - 生成したログを3箇所（エアデータ，機体下，胴体桁）のmicroSDカードに分散して保存（冗長性の確保）．
 - ラダーの駆動
     - ロードセルの値を読み取り，レバーを握り込む力に応じて垂直尾翼を駆動する．
+
 ### サブの機能
-- ライブラリ`SerialWeb`を用いたWi-Fi経由のデバッグログ出力．
-- ピッチが水平であるかを示すビープ音をBluetoothで送信し，Bluetoothイヤホン経由でテール持ちへ伝達．
-- 胴体桁電装部にあるスピーカーにより，機速などの情報をパイロット伝達．
+- ライブラリ[`SerialWeb`](https://github.com/00kenno/SerialWeb)を用いたWi-Fi経由のデバッグログ出力．
+- ピッチが水平であるかを示すビープ音をBluetoothで送信し，無線イヤホン経由でテール持ちへ伝達．
+- 胴体桁電装部にあるスピーカーにより，機速などの情報をパイロットへ伝達．
 
 {% raw %}
 <pre class="mermaid" style="background-color:white;">
@@ -167,6 +169,8 @@ sequenceDiagram
     Note over elec: ラダー取付(*1)
     Note over elec: ベース・下70°接合(*1)
     Note over elec: ケーブル整理(*1)
+    Note over elec: Air準備(LiPoも)
+    elec -->> assem:
     Note over assem: T字準備
     assem -->> cockpit:
     Note over cockpit: フレーム接合
@@ -174,14 +178,15 @@ sequenceDiagram
     cockpit -->> assem:
     Note over assem: テール桁接合
     assem -->> elec:
-    Note over elec: Airケーブル通す
-    Note over elec: Air接合(*2)
-    Note over elec: サーボケーブル通す
-    Note over elec: 機体下ケーブル接続
-    Note over elec: Air接合
-    Note over elec: Airケーブル接続
-    elec -->> assem:
-    Note over wing,assem: 主翼組み上げ
+    alt 同時におこなう
+        Note over elec: 内側からAirケーブル通す
+        Note over elec: 上からAirを差込・内側で接合(*2)
+        Note over elec: Airケーブル接続
+        Note over elec: 内側からサーボケーブル通す
+        Note over elec: 機体下ケーブル接続
+    else
+        Note over wing,assem: 主翼組み上げ
+    end
 </pre>
 {% endraw %}
 
