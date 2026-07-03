@@ -76,6 +76,7 @@ flowchart TD
 </pre>
 {% endraw %}
 
+
 <br>
 
 ---
@@ -163,25 +164,54 @@ sequenceDiagram
     participant cockpit as コクピ班
     participant elec as 電装班
 
+    Note over elec: ラダー取付(*1)
+    Note over elec: ベース・下70°接合(*1)
+    Note over elec: ケーブル整理(*1)
     Note over assem: T字準備
     assem -->> cockpit:
     Note over cockpit: フレーム接合
-    cockpit -->> elec:
-    Note over elec: ケーブル整理
-    elec -->> cockpit:
     Note over cockpit: カウル取付
     cockpit -->> assem:
     Note over assem: テール桁接合
-    assem -->> cockpit:
-    Note over cockpit,elec: Airケーブル通す
-    Note over cockpit,elec: サーボケーブル通す
-    Note over cockpit,elec: 機体下ケーブル接続
+    assem -->> elec:
+    Note over elec: Airケーブル通す
+    Note over elec: Air接合(*2)
+    Note over elec: サーボケーブル通す
+    Note over elec: 機体下ケーブル接続
     Note over elec: Air接合
     Note over elec: Airケーブル接続
     elec -->> assem:
     Note over wing,assem: 主翼組み上げ
 </pre>
 {% endraw %}
+
+<table>
+    <tr>
+      <th align="left">(*1)ケーブル接続図</th>
+    </tr>
+    <tr>
+      <td align="left">
+        <ul>
+          <li>エアデータが刺さる根本がベース・下70°</li>
+          <li>ラダー前についているレバー</li>
+        </ul>
+        <img src="assets/cable.png" alt="cable.png">
+      </td>
+    </tr>
+</table>
+
+|図の線の色|種類|
+|:--:|:--:|
+|赤|ラダーLR接続ケーブル|
+|青|Air - 機体下接続ケーブル|
+|緑|Air - 胴体桁接続ケーブル|
+|紫|Air - サーボ接続ケーブル|
+
+<br>
+
+|(*2)Air接合|
+|:--|
+|![air](assets/air.png)|
 
 <br>
 
