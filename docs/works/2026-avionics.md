@@ -27,6 +27,61 @@ date: 2026-06-22
 
 <br>
 
+## 簡単な仕組み
+### メインの機能
+- フライトログ（フライト中の様々な物理量）の測定・記録をおこなう．
+    - センサーのある各電装部からエアデータ電装部に測定した値を送る．
+    - エアデータ電装部で各基板のデータを処理，1行の文字列に変換．
+    - 生成したログを3箇所（エアデータ，機体下，胴体桁）のmicroSDカードに分散して保存（冗長性の確保）．
+- ラダーの駆動
+    - ロードセルの値を読み取り，レバーを握り込む力に応じて垂直尾翼を駆動する．
+### サブの機能
+- ライブラリ`SerialWeb`を用いたWi-Fi経由のデバッグログ出力．
+- ピッチが水平であるかを示すビープ音をBluetoothで送信し，Bluetoothイヤホン経由でテール持ちへ伝達．
+- 胴体桁電装部にあるスピーカーにより，機速などの情報をパイロット伝達．
+
+{% raw %}
+<pre class="mermaid" style="background-color:white;">
+flowchart TD
+    subgraph air["エアデータ電装部 (Airdata/Air)"]
+        ics(["ICS変換基板"])
+        main(["主マイコン"])
+        sub(["副マイコン"])
+        sensors(["各センサー"])
+        
+        ics ~~~ main
+        sensors -- "機速<br>GPS<br>気温・気圧" --> main
+        sensors -- "電圧<br>電流" --> sub
+        main -- "ログ保存" --> sub
+    end
+    rudder["ラダー電装部 (Rudder)"]
+    fuselage["胴体桁電装部 (Fuselage)"]
+    servo["サーボモーター (Servo)"]
+    under["機体下電装部 (Under)"]
+    client["スマホなど(Wi-Fi)"]
+    bt["無線イヤホン"]
+    speaker["スピーカー"]
+    tail(("テール持ち"))
+    p(("パイロット"))
+
+    under -- "超音波高度<br>LiDAR高度<br>気温・気圧" --> main
+    fuselage -- "姿勢角×2<br>気温・気圧" --> main
+    rudder -- "駆動角度" --> main
+    rudder ---> ics -- "サーボ駆動" --> servo
+    main -- "ログ保存" ---> under
+    main -- "ログ保存" ---> fuselage
+    sub -. "デバッグログ" .-> client
+    fuselage -.-> bt -- "水平伝達" --> tail
+    fuselage --> speaker -- "機速など" --> p
+</pre>
+{% endraw %}
+
+<br>
+
+---
+
+<br>
+
 ## ケーブルの接続
 - 差し込む際は，***奥まで差し込む．***
 - 抜く際は，***コネクタを持ち，ケーブルを引っ張らない．***
@@ -40,13 +95,14 @@ flowchart TD
     end
 
     subgraph terminal["ターミナル基板"]
-        solder{{"はんだ付け"}}
+        solder{{"XTコネクタ"}}
+        toAir{{"PA 12ピン"}}
         toUnder{{"PA 4ピン"}}
         toFuse{{"PA 4ピン"}}
         toRudder{{"PA 4ピン"}}
         toServo{{"PA 3ピン"}}
         
-        solder ~~~ toUnder ~~~ toFuse ~~~ toServo ~~~ toRudder
+        toAir ~~~ solder ~~~ toUnder ~~~ toFuse ~~~ toServo ~~~ toRudder
     end
 
     subgraph lipo["LiPoバッテリー"]
@@ -78,9 +134,9 @@ flowchart TD
         servo3{{"専用 3ピン"}}
     end
 
-    Conn12 <==> solder
+    Conn12 <==> toAir
 
-    solder == "LiPo接続ケーブル" <==> XT
+    solder <==> XT
     toRudder == "Air - ラダー接続ケーブル" <==> R4
     toUnder == "Air - 機体下接続ケーブル" <==> under4
     toFuse == "Air - 胴体桁接続ケーブル" <==> fuselage4
@@ -263,17 +319,41 @@ sequenceDiagram
         Note over mss: 電源投入
     end
     Note over aya,tail: 桟橋運用
-    Note over aya,tail: 機体プラホ設置完了
-    opt サーボ未接続なら
+    Note over aya,tail: 機体定位置
+    Note over aya,tail: 馬入れ
+    opt 垂直尾翼未接合なら
+        Note over tail: 垂直尾翼接合
+        tail -->> atu:
         Note over atu: サーボ接続
     end
     Note over mss: 電源スイッチ，ログを確認
     mss -->> aya:
-    Note over aya: カーボン（ドーサルフィン）取り付け
+    Note over aya: カーボン<br>（ドーサルフィン）取付
     Note over atu: コクピ内に潜る
     tail ->> mss: ニュートラル確認
     mss ->> atu: トリム指示
     Note over atu: トリム調整
+    atu -->> tail:
+    Note over tail: ドーサルフィン取付
+    Note over aya,tail: 全体上げ
+    Note over aya,tail: 馬はけ
+    Note over atu: 胴体保持 in
+    alt 同時におこなう
+        Note over wing: 翼持ちA in
+        Note over wing: 翼持ちB in
+    else
+        mss ->> atu: ラダー操作指示
+        Note over atu: ラダー操作
+    end
+    Note over wing,tail: 運用棒抜く
+    Note over wing,tail: キャノピー穴埋め
+    Note over aya,tail: 位置調整・回転
+    Note over atu: P交代
+    Note over wing: 翼持ちA交代
+    Note over tail: テール持ちセット
+    Note over wing: 翼保持はけ
+    Note over wing: 翼持ちB out
+    Note over aya,tail: 乗り込み
 </pre>
 {% endraw %}
 
