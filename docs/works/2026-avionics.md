@@ -157,6 +157,7 @@ flowchart TD
 ## アセンブリ - シーケンス図
 - 変更される可能性有り．
 - 正確に，かつ速やかに動作させられる状態にもっていく．
+- 【追記】今年のケーブルは部員が圧着しているため，ケーブルを取り付ける前にコネクタの圧着状態をよく確認すること．
 
 {% raw %}
 <pre class="mermaid" style="background-color:white;">
@@ -169,21 +170,28 @@ sequenceDiagram
     Note over elec: ラダー取付(*1)
     Note over elec: ベース・下70°接合(*1)
     Note over elec: ケーブル整理(*1)
-    Note over elec: Air準備(LiPoも)
+    Note over elec: Air・LiPo準備
     elec -->> assem:
     Note over assem: T字準備
     assem -->> cockpit:
     Note over cockpit: フレーム接合
+    cockpit -->> elec:
+    Note over elec: 胴体桁電装部 取付
+    elec -->> cockpit:
     Note over cockpit: カウル取付
     cockpit -->> assem:
     Note over assem: テール桁接合
     assem -->> elec:
     alt 同時におこなう
-        Note over elec: 内側からAirケーブル通す
+        Note over elec: 内側から12pinケーブル通す
         Note over elec: 上からAirを差込・内側で接合(*2)
-        Note over elec: Airケーブル接続
-        Note over elec: 内側からサーボケーブル通す
+        Note over elec: Air12pinケーブル接続
+        Note over elec: LiPo接続
         Note over elec: 機体下ケーブル接続
+        Note over elec: ラダーケーブル接続
+        Note over elec: 胴体桁ケーブル接続
+        Note over elec: 外側からサーボケーブル通す
+        Note over elec: ターミナル全ケーブル接続
     else
         Note over wing,assem: 主翼組み上げ
     end
@@ -198,7 +206,8 @@ sequenceDiagram
       <td align="left">
         <ul>
           <li>エアデータが刺さる根本がベース・下70°</li>
-          <li>ラダー前についているレバー</li>
+          <li>ラダーは前についているレバー</li>
+          <li>エアデータが刺さる根本にターミナル基板がある（フレームがT字に接合される前にできる限り接続しておく）</li>
         </ul>
         <img src="assets/cable.png" alt="cable.png">
       </td>
@@ -228,6 +237,7 @@ sequenceDiagram
 - フライト当日は，基本的にマイコンに***ソフトウェアを書き込まない***（状況が悪化する可能性があるため）．
 - フライト直前では，フライトロガーの動作について***「諦める」***可能性有り．
 - 重大なエラーが発生しても，パイロットの安全を重視し***サーボモーターは動作させられるよう最大限努力する．***
+- 【追記】今年のケーブルは部員が圧着しているため，***コネクタ周辺をよく確認し，ケーブルの抜けがないかを真っ先に確認すること．***
 
 {% raw %}
 <pre class="mermaid" style="background-color:white;">
