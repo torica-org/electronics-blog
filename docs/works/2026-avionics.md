@@ -192,6 +192,7 @@ sequenceDiagram
         Note over elec: 胴体桁ケーブル接続
         Note over elec: 外側からサーボケーブル通す
         Note over elec: ターミナル全ケーブル接続
+        Note over elec: カーボンドーサルフィン仮固定
     else
         Note over wing,assem: 主翼組み上げ
     end
