@@ -97,20 +97,25 @@ flowchart TD
         Conn12{{"PA 12ピン"}}
     end
 
-    subgraph terminal["ターミナル基板"]
+    subgraph power["パワーソース基板"]
+    direction TB
+        toTerm{{"PA 4ピン"}}
         solder{{"XTコネクタ"}}
+        toTerm ~~~ solder
+    end
+
+    subgraph terminal["ターミナル基板"]
         toAir{{"PA 12ピン"}}
+        toPower{{"PA 4ピン"}}
         toUnder{{"PA 4ピン"}}
         toFuse{{"PA 4ピン"}}
         toRudder{{"PA 4ピン"}}
         toServo{{"PA 3ピン"}}
         
-        toAir ~~~ solder ~~~ toUnder ~~~ toFuse ~~~ toServo ~~~ toRudder
+        toAir ~~~ toPower ~~~ solder ~~~ toUnder ~~~ toFuse ~~~ toServo ~~~ toRudder
     end
 
-    subgraph lipo["LiPoバッテリー"]
-        XT{{"XTコネクタ"}}
-    end
+    lipo["LiPoバッテリー"]
 
     subgraph rudder["ラダー電装部 (Rudder)"]
         subgraph L["左ラダー"]
@@ -138,8 +143,8 @@ flowchart TD
     end
 
     Conn12 <==> toAir
-
-    solder <==> XT
+    toTerm <==> toPower
+    solder <==> lipo
     toRudder == "Air - ラダー接続ケーブル" <==> R4
     toUnder == "Air - 機体下接続ケーブル" <==> under4
     toFuse == "Air - 胴体桁接続ケーブル" <==> fuselage4
