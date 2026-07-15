@@ -357,38 +357,35 @@ sequenceDiagram
         Note over tail: 垂直尾翼接合
         tail -->> mss:
         Note over mss: 電源投入
-        mss -->> atu:
-        Note over atu: サーボ接続
+        mss -->> tail:
+        Note over tail: サーボ接続
     else 風速 3m/s~の（または運用上危険な）場合
         Note over mss: 電源投入
     end
     Note over aya,tail: 桟橋運用
     Note over aya,tail: 機体定位置
     Note over aya,tail: 馬入れ
-    opt 垂直尾翼未接合なら
-        Note over tail: 垂直尾翼接合
-        tail -->> atu:
-        Note over atu: サーボ接続
+    alt 同時におこなう
+        Note over tail: 水平尾翼迎角調整
+        opt 未接合
+            Note over tail: 垂直尾翼接合
+        end
+        Note over tail: サーボ接続
+        Note over tail: ドーサルフィン取付
+    else
+        Note over aya: カーボン<br>ドーサルフィン本固定
+        Note over mss: 電源スイッチ，ログを確認
+        Note over mss: フラグリセット
+        Note over mss: スピーカーON
     end
-    Note over mss: 電源スイッチ，ログを確認
-    mss -->> aya:
-    Note over aya: カーボン<br>（ドーサルフィン）取付
-    Note over atu: コクピ内に潜る
-    tail ->> mss: ニュートラル確認
-    mss ->> atu: トリム指示
-    Note over atu: トリム調整
-    atu -->> tail:
-    Note over tail: ドーサルフィン取付
     Note over aya,tail: 全体上げ
     Note over aya,tail: 馬はけ
     Note over atu: 胴体保持 in
-    alt 同時におこなう
-        Note over wing: 翼持ちA in
-        Note over wing: 翼持ちB in
-    else
-        mss ->> atu: ラダー操作指示
-        Note over atu: ラダー操作
-    end
+    Note over wing: 翼持ちA in
+    Note over wing: 翼持ちB in
+    tail ->> mss: ニュートラル確認
+    mss ->> atu: トリム指示
+    Note over atu: トリム調整
     Note over wing,tail: 運用棒抜く
     Note over wing,tail: キャノピー穴埋め
     Note over aya,tail: 位置調整・回転
