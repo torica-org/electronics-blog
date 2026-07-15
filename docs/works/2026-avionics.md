@@ -234,41 +234,51 @@ sequenceDiagram
 flowchart TD
     error(("正常に動作しない"))
     power{"電源が入る？"}
-    conn{"コネクタ接続は<br>適切？"}
-    connFix(("コネクタ接続修正"))
+    conn{"ケーブルが断線？"}
+    connFix(("ケーブル
+    交換／修正"))
 
-    lipo{"バッテリー電圧は<br>正常？"}
+    lipo{"バッテリー電圧は
+正常？"}
     lipoReplace(("バッテリー交換"))
 
-    poli{"ポリスイッチが<br>作動した？"}
-    cableBreak{"ケーブルが<br>断線？"}
-    cableReplace(("ケーブル交換"))
+    poli{"ポリスイッチが
+作動した？"}
+    cableBreak{"ケーブルが
+断線？"}
+    cableReplace(("ケーブル
+    交換／修正"))
 
+    servo{"サーボは
+動作する？"}
 
-    servo{"サーボは<br>動作する？"}
-
-    log{"フライトロガー<br>機能維持？"}
-
-
+    log{"フライトロガー
+機能維持？"}
 
     subgraph theDayBefore["📅前日📅"]
-        debugServo1[["デバッグ<br>（ソフト書換を含む⚡️）"]]
-        debugLogger[["デバッグ<br>（ソフト書換を含む⚡️）"]]
+        debugServo1[["デバッグ
+（ソフト書換を含む⚡️）"]]
+        debugLogger[["デバッグ
+（ソフト書換を含む⚡️）"]]
     end
 
     subgraph thatDay["📅当日📅"]
-        debugServo2[["デバッグ<br>（ソフト書換を含む⚡️）"]]
-        noSoft[["デバッグ<br>（ソフト書換なし❌️）"]]
+        debugServo2[["デバッグ
+（ソフト書換を含む⚡️）"]]
+        noSoft[["デバッグ
+（ソフト書換なし❌️）"]]
         morning(["⌛️フライト当日朝⌛️"])
         dock(["⌛️桟橋到達⌛️"])
         dockServo(["⌛️桟橋到達⌛️"])
-        giveUp(("デバッグを終了<br>最低限動作"))
-        lock(("ニュートラル<br>ロック"))
+        giveUp(("デバッグを終了
+最低限動作"))
+        lock(("ニュートラル
+ロック"))
     end
 
-    error --> conn
-    conn -- "❌️ No ❌️" --> connFix
-    conn -- "✅️ Yes ✅️" ---> power
+    error --> power
+    conn -- "❌️ No ❌️" --> servo
+    conn -- "✅️ Yes ✅️" ---> connFix
 
     power -- "❌️ No ❌️" --> lipo
     lipo -- "✅️ Yes ✅️" ---> poli
@@ -278,13 +288,12 @@ flowchart TD
 
     lipo -- "❌️ No ❌️" --> lipoReplace
     
-    power -- "✅️ Yes ✅️" --> servo
+    power -- "✅️ Yes ✅️" --> conn
 
     servo -- "❌️ No ❌️" --> debugServo1 --> debugServo2 --> dockServo--> lock
     servo -- "✅️ Yes ✅️" ---> log
 
     log -- "❌️ No ❌️" --> debugLogger --> morning --> noSoft --> dock --> giveUp
-
 </pre>
 {% endraw %}
 
