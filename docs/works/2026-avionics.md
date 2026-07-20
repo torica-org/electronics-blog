@@ -43,7 +43,7 @@ date: 2026-06-22
 - 胴体桁電装部にあるスピーカーにより，機速などの情報をパイロットへ伝達．
 
 {% raw %}
-<pre class="mermaid" style="background-color:white;">
+<pre class="mermaid" style="background-color:white;width:500px;">
 flowchart TD
     subgraph air["エアデータ電装部 (Airdata/Air)"]
         ics(["ICS変換基板"])
@@ -91,7 +91,7 @@ flowchart TD
 - PAコネクタの場合は，ロック機構があることに注意する．
 
 {% raw %}
-<pre class="mermaid" style="background-color:white;">
+<pre class="mermaid" style="background-color:white;width:500px;">
 flowchart TD
     subgraph airdata["エアデータ電装部 (Airdata/Air)"]
         Conn12{{"PA 12ピン"}}
@@ -165,7 +165,7 @@ flowchart TD
 - 【追記】今年のケーブルは部員が圧着しているため，ケーブルを取り付ける前にコネクタの圧着状態をよく確認すること．
 
 {% raw %}
-<pre class="mermaid" style="background-color:white;">
+<pre class="mermaid" style="background-color:white;width:500px;">
 sequenceDiagram
     participant wing as 翼班
     participant assem as 接合班
@@ -246,7 +246,7 @@ sequenceDiagram
 - 【追記】今年のケーブルは部員が圧着しているため，***コネクタ周辺をよく確認し，ケーブルの抜けがないかを真っ先に確認すること．***
 
 {% raw %}
-<pre class="mermaid" style="background-color:white;">
+<pre class="mermaid" style="background-color:white;width:500px;">
 flowchart TD
     error(("正常に動作しない"))
     power{"電源が入る？"}
@@ -328,7 +328,7 @@ flowchart TD
 - 垂直尾翼が取り付けられたまま運用する際は，風により回転するのを防ぐためにサーボモーターにケーブルを接続して駆動させておく．
 
 {% raw %}
-<pre class="mermaid" style="background-color:white;">
+<pre class="mermaid" style="background-color:white;width:500px;">
 flowchart LR
     servoNCCheck["サーボケーブル<br>抜け確認"]
     powerOn(("メインスイッチ<br><strong>ON</strong>"))
@@ -360,7 +360,7 @@ flowchart LR
 ## フライト直前の動き
 
 {% raw %}
-<pre class="mermaid" style="background-color:white;">
+<pre class="mermaid" style="background-color:white;width:500px;">
 sequenceDiagram
     actor aya
     actor mss
@@ -396,9 +396,9 @@ sequenceDiagram
     end
     Note over aya,tail: 全体上げ
     Note over aya,tail: 馬はけ
-    Note over atu: 胴体保持 in
     Note over wing: 翼持ちA in
     Note over wing: 翼持ちB in
+    Note over atu: P保持 in
     tail ->> mss: ニュートラル確認
     mss ->> atu: トリム指示
     Note over atu: トリム調整
