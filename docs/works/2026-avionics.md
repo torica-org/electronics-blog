@@ -97,18 +97,18 @@ flowchart TD
 
           +---------------+                                         +---------------+
           |    Airdata    |                                         | LiPo Battery  |
-          +-------+-------+                                         +---------------+
-              [PA 12Pin]                                              [XT Connector]
+          +-------+-------+                                         +-------+-------+
+              [PA 12Pin]                                             [XT60 Connector]
                   |                                                         |
-                  |                                                   (Power Cable)
+                  |                                                   (LiPo - Power)
                   |                                                         |
-                  |                                                   [XT Connector]
-                  |                                                 +---------------+
+                  |                                                  [XT60 Connector]
+                  |                                                 +-------+-------+
             (12Pin Cable)                                           |     Power     |
                   |                                                 +-------+-------+
                   |                                                     [PA 4Pin]
                   |                                                         |
-                  |                                                 (Air - Power Cable)
+                  |                                                   (Air - Power)
                   |                                                         |
               [PA 12Pin]                                                [PA 4Pin]
   +---------------+---------------------------------------------------------+---------------+
@@ -116,23 +116,33 @@ flowchart TD
   +----+--------------------------+-------------------------+----------------------+--------+
   　[PA 4Pin]              　　[PA 4Pin]                [PA 4Pin]               [PA 3Pin]
        |              　　　　　　 |                         |                      |
-　(Air - Under)         　　(Air - Rudder)            (Air - Fuselage)        (Air - Servo)
+  (Air - Under)             (Air - Rudder)           (Air - Fuselage)              |
        |                          |                         |                      |
-　　[PA 4Pin]                 [PA 4Pin]                 [PA 4Pin]       　　　　[PA 4Pin]
-+---------------+         +---------------+         +---------------+       +---------------+
-|     Under     |         |  Rudder (R)   |         |   Fuselage    |       |     Servo     |
-+---------------+         +-+-----------+-+         +---------------+       +---------------+
-                            |       [PA 3Pin]                                [Special 3Pin]
-                {Load Cell} ┘           |
-                                   (Rudder LR)
-                                        |
-                                    [PA 3Pin]
-                          +-------------+-+
-                          |  Rudder (L)   |
-                          +-+-------------+
+　　[PA 4Pin]                 [PA 4Pin]                 [PA 4Pin]       　　　　    |
++------+--------+         +-------+-------+         +-------+-------+              |
+|     Under     |         |  Rudder (R)   |         |   Fuselage    |        (Air - Servo)
++---------------+         +-+-----------+-+         +---------------+              |
+                            |       [PA 3Pin]                                      |
+              { Load Cell } ┘           |                                          |
+                                   (Rudder LR)                                     |
+                                        |                                          ▼
+                                    [PA 3Pin]                                [Special 3Pin]
+                          +-------------+-+                                 +------+-------+
+                          |  Rudder (L)   |                                 |    Servo     |
+                          +-+-------------+                                 +--------------+
                             |
-                {Load Cell} ┘
+              { Load Cell } ┘
 ```
+|和名|英名|
+|:--:|:--:|
+|エアデータ電装部|Airdata|
+|リポバッテリー|LiPo|
+|パワーソース基板|Power|
+|ターミナル基板|Terminal|
+|機体下電装部|Under|
+|ラダー電装部|Rudder|
+|胴体桁電装部|Fuselage|
+|サーボモーター|Servo|
 
 <br>
 
