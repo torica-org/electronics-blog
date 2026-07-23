@@ -97,25 +97,25 @@ gantt
     title 7月25日 スケジュール
 
     section 全体の動き
-    起床                             :milestone, m1, 05:30, 0m
-    湖岸へ移動開始                   :milestone, m2, 06:00, 0m
-    積下ろし テント設営※             :active, t1, 08:00, 09:00
-    機体組み上げ / 機体保持 / プラホ練 :active, t2, 09:00, 11:30
-    昼食                            :active, t3, 11:30, 13:00
-    機体チェック → 機体解体          :active, t4, 13:00, 16:00
-    ホテルへ移動                    :active, t5, 16:00, 20:30
-    機体保持                        :active, t6, 16:00, 20:30
-    夜間保持                        :active, t7, 20:30, 22:00
+    起床                               :milestone, m1, 05:30, 0m
+    湖岸へ移動開始                     :milestone, m2, 06:00, 0m
+    積下ろし テント設営※               :active, t1, 08:00, 09:00
+    機体組み上げ / 機体保持 / プラホ練   :active, t2, 09:00, 11:30
+    昼食                               :active, t3, 11:30, 13:00
+    機体チェック → 機体解体           :active, t4, 13:00, 16:00
+    ホテルへ移動                       :active, t5, 16:00, 20:30
+    機体保持                           :active, t6, 16:00, 20:30
+    夜間保持                           :active, t7, 20:30, 22:00
 
     section 電装の動き
-    ラダー養生　　　　　　　　　　　　　:milestone, i1, 08:30, 0m
+    ラダー養生                         :milestone, i1, 08:30, 0m
     電装アセンブリ                     :milestone, i2, 09:00, 0m
-    電装動作確認                      :active, i4, 9:00, 13:00
-    LiPo残量確認                     :milestone, i5, 13:00, 0m
-    電装動作確認                      :active, i6, 13:00, 16:00
-    解体・本番準備                    :milestone,   i7, 15:00, 0m
-    LiPo充電　　　　　　　　　　　　　:active, i8, 17:00, 22:00
-    トランシーバー充電　　　　　　　　　:active, i9, 17:00, 22:00
+    電装動作確認                       :active, i4, 09:00, 13:00
+    LiPo残量確認                       :milestone, i5, 13:00, 0m
+    電装動作確認                       :active, i6, 13:00, 16:00
+    解体・本番準備                     :milestone, i7, 15:00, 0m
+    LiPo充電                           :active, i8, 17:00, 22:00
+    トランシーバー充電                 :active, i9, 17:00, 22:00
 </pre>
 {% endraw %}
 
@@ -137,9 +137,9 @@ gantt
     撤収                     :active, t2, 06:00, 09:00
 
     section 電装の動き
-    電装アセンブリ　　　　　　　　　　:milestone, i1, 02:00, 0m
-    電装リュック持ち出し             :milestone, i2, 02:30, 0m
-    電装動作確認                   :active, i3, 3:00, 6:15
+    電装アセンブリ           :milestone, i1, 02:00, 0m
+    電装リュック持ち出し     :milestone, i2, 02:30, 0m
+    電装動作確認             :active, i3, 03:00, 06:15
 </pre>
 {% endraw %}
 
@@ -232,6 +232,7 @@ sequenceDiagram
     Note over elec: ラダー取付(*1)
     Note over elec: ベース・下70°接合(*1)
     Note over elec: ケーブル整理(*1)
+    Note over elec: T字に胴体桁ベース取付
     Note over elec: Air・LiPo準備
     elec -->> assem:
     Note over assem: T字準備
@@ -271,6 +272,7 @@ sequenceDiagram
           <li>エアデータが刺さる根本がベース・下70°</li>
           <li>ラダーは前についているレバー</li>
           <li>エアデータが刺さる根本にターミナル基板がある（フレームがT字に接合される前にできる限り接続しておく）</li>
+          <li>Air - サーボ接続ケーブルはカウル取り付け後，外から差し込む</li>
         </ul>
         <img src="assets/cable.png" alt="cable.png">
       </td>
@@ -280,9 +282,12 @@ sequenceDiagram
 |図の線の色|種類|
 |:--:|:--:|
 |赤|ラダーLR接続ケーブル|
+|橙|Air - ラダー接続ケーブル|
 |青|Air - 機体下接続ケーブル|
-|緑|Air - 胴体桁接続ケーブル|
-|紫|Air - サーボ接続ケーブル|
+|紫|Air - 胴体桁接続ケーブル|
+|緑|Air - サーボ接続ケーブル|
+|水色|12Pinケーブル|
+|ピンク|2芯電源ケーブル|
 
 <br>
 
