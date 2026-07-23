@@ -85,6 +85,91 @@ flowchart TD
 
 <br>
 
+## スケジュール
+### 7/24
+
+{% raw %}
+<pre class="mermaid" style="background-color:white;">
+gantt
+    dateFormat  HH:mm
+    axisFormat  %H:%mm
+    title 7月24日 スケジュール
+
+    section メイン
+    12:15 集合 @サブアリーナ       :milestone, m1, 12:15, 0m
+    トラック積み込み                :active, track, 12:15, 15:00
+    後続 移動開始 → 各ホテルへ      :after, 16:45, 22:00
+
+    section 先発組
+    先発組 移動                    :first, 11:00, 15:00
+
+    section 講習会
+    浪越・宮藤 安全講習会          :safety, 18:30, 19:00
+</pre>
+{% endraw %}
+
+### 7/25
+
+{% raw %}
+<pre class="mermaid" style="background-color:white;">
+gantt
+    dateFormat  HH:mm
+    axisFormat  %H:%mm
+    title 7月25日 スケジュール
+
+    section 全体の動き
+    起床                             :milestone, m1, 05:30, 0m
+    湖岸へ移動開始                   :milestone, m2, 06:00, 0m
+    積下ろし テント設営※             :active, t1, 08:00, 09:00
+    機体組み上げ / 機体保持 / プラホ練 :active, t2, 09:00, 11:30
+    昼食                            :active, t3, 11:30, 13:00
+    機体チェック → 機体解体          :active, t4, 13:00, 16:00
+    ホテルへ移動                    :active, t5, 16:00, 20:30
+    機体保持                        :active, t6, 16:00, 20:30
+    夜間保持                        :active, t7, 20:30, 22:00
+
+    section 個別の動き
+    氷受け取り①                     :milestone, i1, 08:00, 0m
+    氷受け取り②                     :milestone, i2, 10:00, 0m
+    昼食受け取り                     :milestone, i3, 11:00, 0m
+    夕飯受け取り                     :milestone, i4, 15:30, 0m
+    マナーリーダー合同清掃           :active,   i5, 16:00, 17:00
+    氷受け取り③                     :milestone, i6, 17:00, 0m
+    宮藤・上原 プラットフォーム下見  :active,   i7, 17:30, 19:00
+    夜間保持 / 入浴・夕飯            :active,   i8, 16:00, 22:00
+</pre>
+{% endraw %}
+
+### 7/26
+
+{% raw %}
+<pre class="mermaid" style="background-color:white;">
+gantt
+    dateFormat  HH:mm
+    axisFormat  %H:%mm
+    title 7月26日 スケジュール
+
+    section 全体の動き
+    起床                     :milestone, m1, 01:30, 0m
+    湖岸へ移動開始           :milestone, m2, 02:00, 0m
+    集合                     :milestone, m3, 02:30, 0m
+    機体組み上げ・運用       :active, t1, 03:00, 06:30
+    フライト(予想)           :milestone, m4, 06:30, 0m
+    撤収                     :active, t2, 06:30, 09:00
+
+    section 個別の動き
+    氷受け取り④             :milestone, i1, 03:00, 0m
+    フラチ 移動開始          :milestone, i2, 04:40, 0m
+    宮藤 メディカルチェック  :milestone, i3, 05:15, 0m
+</pre>
+{% endraw %}
+
+<br>
+
+---
+
+<br>
+
 ## ケーブルの接続
 - 差し込む際は，***奥まで差し込む．***
 - 抜く際は，***コネクタを持ち，ケーブルを引っ張らない．***
