@@ -69,7 +69,7 @@ flowchart TD
     under -- "超音波高度<br>LiDAR高度<br>気温・気圧" --> main
     fuselage -- "姿勢角×2<br>気温・気圧" --> main
     rudder -- "駆動角度" --> main
-    rudder ---> ics -- "サーボ駆動" --> servo
+    rudder -- "駆動角度" --> ics -- "サーボ駆動" --> servo
     main -- "ログ保存" ---> under
     main -- "ログ保存" ---> fuselage
     sub -. "デバッグログ" .-> client
@@ -90,67 +90,49 @@ flowchart TD
 - 抜く際は，***コネクタを持ち，ケーブルを引っ張らない．***
 - PAコネクタの場合は，ロック機構があることに注意する．
 
-{% raw %}
-<pre class="mermaid" style="background-color:white;width:500px;">
-flowchart TD
-    subgraph airdata["エアデータ電装部 (Airdata/Air)"]
-        Conn12{{"PA 12ピン"}}
-    end
+```
+==================================================================================================
+                                         WIRING DIAGRAM
+==================================================================================================
 
-    subgraph power["パワーソース基板"]
-    direction TB
-        toTerm{{"PA 4ピン"}}
-        solder{{"XTコネクタ"}}
-        toTerm ~~~ solder
-    end
-
-    subgraph terminal["ターミナル基板"]
-        toAir{{"PA 12ピン"}}
-        toPower{{"PA 4ピン"}}
-        toUnder{{"PA 4ピン"}}
-        toFuse{{"PA 4ピン"}}
-        toRudder{{"PA 4ピン"}}
-        toServo{{"PA 3ピン"}}
-        
-        toAir ~~~ toPower ~~~ solder ~~~ toUnder ~~~ toFuse ~~~ toServo ~~~ toRudder
-    end
-
-    lipo["LiPoバッテリー"]
-
-    subgraph rudder["ラダー電装部 (Rudder)"]
-        subgraph L["左ラダー"]
-            loadcellL["ロードセル"]
-            L3{{"PA 3ピン"}}
-        end
-        subgraph R["右ラダー"]
-            loadcellR["ロードセル"]
-            R3{{"PA 3ピン"}}
-            R4{{"PA 4ピン"}}
-        end
-        R3 == "ラダーLR接続ケーブル" <==> L3
-    end
-
-    subgraph under["機体下電装部 (Under)"]
-        under4{{"PA 4ピン"}}
-    end
-
-    subgraph fuselage["胴体桁電装部 (Fuselage)"]
-        fuselage4{{"PA 4ピン"}}
-    end
-
-    subgraph servo["サーボモーター (Servo)"]
-        servo3{{"専用 3ピン"}}
-    end
-
-    Conn12 <==> toAir
-    toTerm <==> toPower
-    solder <==> lipo
-    toRudder == "Air - ラダー接続ケーブル" <==> R4
-    toUnder == "Air - 機体下接続ケーブル" <==> under4
-    toFuse == "Air - 胴体桁接続ケーブル" <==> fuselage4
-    toServo == "Air - サーボ接続ケーブル" <==> servo3
-</pre>
-{% endraw %}
+          +---------------+                                         +---------------+
+          |    Airdata    |                                         | LiPo Battery  |
+          +-------+-------+                                         +---------------+
+              [PA 12Pin]                                              [XT Connector]
+                  |                                                         |
+                  |                                                   (Power Cable)
+                  |                                                         |
+                  |                                                   [XT Connector]
+                  |                                                 +---------------+
+            (12Pin Cable)                                           |     Power     |
+                  |                                                 +───────┬───────+
+                  |                                                     [PA 4Pin]
+                  |                                                         |
+                  |                                                 (Air - Power Cable)
+                  |                                                         |
+              [PA 12Pin]                                                [PA 4Pin]
+  +───────────────+─────────────────────────────────────────────────────────+───────────────+
+  |                                      Terminal                                           |
+  +────┬──────────────────────────┬─────────────────────────┬──────────────────────┬────────+
+  　[PA 4Pin]              　　[PA 4Pin]                [PA 4Pin]               [PA 3Pin]
+       |              　　　　　　 |                         |                      |
+　(Air - Under)         　　(Air - Rudder)            (Air - Fuselage)        (Air - Servo)
+       |                          |                         |                      |
+　　[PA 4Pin]                 [PA 4Pin]                 [PA 4Pin]       　　　　[PA 4Pin]
++---------------+         +---------------+         +---------------+       +---------------+
+|     Under     |         |  Rudder (R)   |         |   Fuselage    |       |     Servo     |
++---------------+         +─┬───────────┬─+         +---------------+       +---------------+
+                            |       [PA 3Pin]                                [Special 3Pin]
+                {Load Cell} ┘           |
+                                   (Rudder LR)
+                                        |
+                                    [PA 3Pin]
+                          +─────────────┴─+
+                          |  Rudder (L)   |
+                          +─┬─────────────+
+                            |
+                {Load Cell} ┘
+```
 
 <br>
 
