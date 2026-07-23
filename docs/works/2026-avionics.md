@@ -86,27 +86,6 @@ flowchart TD
 <br>
 
 ## スケジュール
-### 7/24
-
-{% raw %}
-<pre class="mermaid" style="background-color:white;">
-gantt
-    dateFormat  HH:mm
-    axisFormat  %H:%mm
-    title 7月24日 スケジュール
-
-    section メイン
-    12:15 集合 @サブアリーナ       :milestone, m1, 12:15, 0m
-    トラック積み込み                :active, track, 12:15, 15:00
-    後続 移動開始 → 各ホテルへ      :after, 16:45, 22:00
-
-    section 先発組
-    先発組 移動                    :first, 11:00, 15:00
-
-    section 講習会
-    浪越・宮藤 安全講習会          :safety, 18:30, 19:00
-</pre>
-{% endraw %}
 
 ### 7/25
 
@@ -114,7 +93,7 @@ gantt
 <pre class="mermaid" style="background-color:white;">
 gantt
     dateFormat  HH:mm
-    axisFormat  %H:%mm
+    axisFormat  %H
     title 7月25日 スケジュール
 
     section 全体の動き
@@ -128,15 +107,15 @@ gantt
     機体保持                        :active, t6, 16:00, 20:30
     夜間保持                        :active, t7, 20:30, 22:00
 
-    section 個別の動き
-    氷受け取り①                     :milestone, i1, 08:00, 0m
-    氷受け取り②                     :milestone, i2, 10:00, 0m
-    昼食受け取り                     :milestone, i3, 11:00, 0m
-    夕飯受け取り                     :milestone, i4, 15:30, 0m
-    マナーリーダー合同清掃           :active,   i5, 16:00, 17:00
-    氷受け取り③                     :milestone, i6, 17:00, 0m
-    宮藤・上原 プラットフォーム下見  :active,   i7, 17:30, 19:00
-    夜間保持 / 入浴・夕飯            :active,   i8, 16:00, 22:00
+    section 電装の動き
+    ラダー養生　　　　　　　　　　　　　:milestone, i1, 08:30, 0m
+    電装アセンブリ                     :milestone, i2, 09:00, 0m
+    電装動作確認                      :active, i4, 9:00, 13:00
+    LiPo残量確認                     :milestone, i5, 13:00, 0m
+    電装動作確認                      :active, i6, 13:00, 16:00
+    解体・本番準備                    :milestone,   i7, 15:00, 0m
+    LiPo充電　　　　　　　　　　　　　:active, i8, 17:00, 22:00
+    トランシーバー充電　　　　　　　　　:active, i9, 17:00, 22:00
 </pre>
 {% endraw %}
 
@@ -146,21 +125,21 @@ gantt
 <pre class="mermaid" style="background-color:white;">
 gantt
     dateFormat  HH:mm
-    axisFormat  %H:%mm
+    axisFormat  %H
     title 7月26日 スケジュール
 
     section 全体の動き
     起床                     :milestone, m1, 01:30, 0m
     湖岸へ移動開始           :milestone, m2, 02:00, 0m
     集合                     :milestone, m3, 02:30, 0m
-    機体組み上げ・運用       :active, t1, 03:00, 06:30
-    フライト(予想)           :milestone, m4, 06:30, 0m
-    撤収                     :active, t2, 06:30, 09:00
+    機体組み上げ・運用       :active, t1, 03:00, 06:00
+    フライト(予想)           :milestone, m4, 06:00, 0m
+    撤収                     :active, t2, 06:00, 09:00
 
-    section 個別の動き
-    氷受け取り④             :milestone, i1, 03:00, 0m
-    フラチ 移動開始          :milestone, i2, 04:40, 0m
-    宮藤 メディカルチェック  :milestone, i3, 05:15, 0m
+    section 電装の動き
+    電装アセンブリ　　　　　　　　　　:milestone, i1, 02:00, 0m
+    電装リュック持ち出し             :milestone, i2, 02:30, 0m
+    電装動作確認                   :active, i3, 3:00, 6:15
 </pre>
 {% endraw %}
 
@@ -218,6 +197,7 @@ gantt
                             |
               { Load Cell } ┘
 ```
+
 |和名|英名|
 |:--:|:--:|
 |エアデータ電装部|Airdata|
